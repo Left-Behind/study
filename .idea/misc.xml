@@ -5,7 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="D:/cjs-oauth2-sso-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../cjs-oauth2-sso-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/qq/pom.xml" />
       </list>
     </option>
   </component>
