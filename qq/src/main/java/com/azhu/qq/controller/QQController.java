@@ -37,6 +37,7 @@ public class QQController {
         session.setAttribute("state",uuid);
 
         //Step1：获取Authorization Code
+        System.out.println(QQHttpClient.APPID);
         String url = "https://graph.qq.com/oauth2.0/authorize?response_type=code"+
                 "&client_id=" + QQHttpClient.APPID +
                 "&redirect_uri=" + URLEncoder.encode(backUrl) +

@@ -18,9 +18,9 @@ public class QQHttpClient {
 
 
     //QQ互联中提供的 appid 和 appkey
-    public static final String APPID = "xxxxxxxx";
+    public static final String APPID = "101766997";
 
-    public static final String APPKEY = "xxxxxxxxxx";
+    public static final String APPKEY = "b2e7c774557b11b60bea51a66faec314";
 
 
     private static JSONObject parseJSONP(String jsonp){

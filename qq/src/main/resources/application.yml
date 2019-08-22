@@ -1,6 +1,11 @@
 server:
-  port: 80
+  port: 8765
 
 qq:
   oauth:
-    http: //QQ互联中填写的网站地址
+    http: https://azhu.work/qq/callback
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
