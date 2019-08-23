@@ -3,6 +3,7 @@ package com.azhu.qq.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.azhu.qq.utils.QQHttpClient;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -30,7 +31,7 @@ public class QQController {
     @GetMapping("/qq/oauth")
     public String qq(HttpSession session){
         //QQ互联中的回调地址
-        String backUrl = http + "/qq/callback";
+        String backUrl =  http + "/qq/callback";
 
         //用于第三方应用防止CSRF攻击
         String uuid = UUID.randomUUID().toString().replaceAll("-","");

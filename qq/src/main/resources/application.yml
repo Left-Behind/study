@@ -3,7 +3,7 @@ server:
 
 qq:
   oauth:
-    http: https://azhu.work/qq/callback
+    http: https://www.azhu.work:8765
 
 
 spring:
