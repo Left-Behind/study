@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>redis</module>
+        <module>springcloud-consumer</module>
+        <module>springcloud-eureka</module>
+        <module>springcloud-provider</module>
     </modules>
 
     <dependencies>
