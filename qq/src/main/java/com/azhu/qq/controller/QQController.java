@@ -32,7 +32,7 @@ public class QQController {
     public String qq(HttpSession session){
         //QQ互联中的回调地址
         String backUrl =  http + "/qq/callback";
-
+        System.out.println(backUrl);
         //用于第三方应用防止CSRF攻击
         String uuid = UUID.randomUUID().toString().replaceAll("-","");
         session.setAttribute("state",uuid);

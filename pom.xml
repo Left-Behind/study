@@ -13,6 +13,7 @@
         <module>springcloud-consumer</module>
         <module>springcloud-eureka</module>
         <module>springcloud-provider</module>
+        <module>qq</module>
     </modules>
 
     <dependencies>
