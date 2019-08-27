@@ -12,17 +12,9 @@ public class BigDecimal_Demo {
 
     @Test
     public void compareTo(){
-        BigDecimal minPrice=new BigDecimal(1000);
-        BigDecimal maxPrice=new BigDecimal(50000);
-        BigDecimal amount=new BigDecimal(999);
+        BigDecimal a = new BigDecimal("1.00");
+        BigDecimal b = new BigDecimal(1.00);
 
-        for(int i=0;i<50010;i++){
-            amount=new BigDecimal(i);
-            if(minPrice.compareTo(amount)>0||maxPrice.compareTo(amount)<0){
-                System.out.println(amount+"dsfsdf");
-                System.out.println("s");
-            }
-        }
-
+        System.out.println(a.compareTo(b));
     }
 }
