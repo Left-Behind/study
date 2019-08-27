@@ -16,5 +16,6 @@ public class BigDecimal_Demo {
         BigDecimal b = new BigDecimal(1.00);
 
         System.out.println(a.compareTo(b));
+        System.out.println("ssssssssssssssssssss");
     }
 }
