@@ -12,9 +12,16 @@ import java.util.Date;
 public class DateDemo {
 
     @Test
-    public void SimpleDateFormatDemo(){
+    public void getToday(){
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("d");
+        Integer today=Integer.valueOf(dateFormat.format(new Date()));
+        System.out.println(today);
+    }
+    @Test
+    public void getMonth(){
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("M");
         Integer today=Integer.valueOf(dateFormat.format(new Date()));
         System.out.println(today);
     }
