@@ -5,43 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0249bba-cbb4-4938-ab02-b92ec353c38a" name="Default" comment="QQ联登成功,了解了http和https的区别，想要把自己的阿里云域名www.azhu.work使用https访问还得需要ssl证书">
-      <change afterPath="$PROJECT_DIR$/.idea/noSqlSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cjs-oauth2-sso-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cjs-oauth2-sso-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cjs-oauth2-sso-demo/oauth2-sso-auth-server/oauth2-sso-auth-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cjs-oauth2-sso-demo/oauth2-sso-client-member/oauth2-sso-client-member.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cjs-oauth2-sso-demo/oauth2-sso-client-order/oauth2-sso-client-order.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/main/java/数据类型/BigDecimal_Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/main/java/数据类型/BigDecimal_Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/SpringbootDatasourceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceAopInService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceContextHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DruidDataSourceProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DynamicPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/MyAbstractRoutingDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/UserInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/UserInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-datasource/src/test/java/com/azhu/springbootdatasource/SpringbootDatasourceApplicationTests.java" beforeDir="false" />
-    </list>
-    <list id="067ecb48-526c-4edb-a315-186b45289c30" name="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;" comment="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;&#10;&#10;This reverts commit 6492adeb">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5_demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/main/java/MD5/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/main/java/MD5/md5_demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/main/java/数据类型/BigDecimal_Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/main/java/数据类型/BigDecimal_Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study.iml" beforeDir="false" />
     </list>
+    <list id="067ecb48-526c-4edb-a315-186b45289c30" name="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;" comment="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;&#10;&#10;This reverts commit 6492adeb" />
     <ignored path="$PROJECT_DIR$/redis/target/" />
     <ignored path="$PROJECT_DIR$/oauth2-sso-client-member/target/" />
     <ignored path="$PROJECT_DIR$/oauth2-sso-client-order/target/" />
@@ -57,7 +32,6 @@
     <ignored path="$PROJECT_DIR$/springcloud-eureka/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-provider/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-datasource/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,24 +52,136 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@www.azhu.work" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@www.azhu.work" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@www.azhu.work" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wechat: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="study" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/JedisDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/JedisDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/sql/Length.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/数据类型/BigDecimal_Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qq/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5b21a01-45b6-45d9-b910-a93ad50240ea/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/QqApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/utils/QQHttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -106,6 +192,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../cjs-oauth2-sso-demo/oauth2-sso-client-member/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/../cjs-oauth2-sso-demo/oauth2-sso-client-order/src/main/java/com/cjs/example/Test.java" />
+        <option value="$PROJECT_DIR$/qq/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/qq/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/JedisDemo1.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/java基本类型/Integer_demo.java" />
+        <option value="$PROJECT_DIR$/qq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/qq/pom.xml" />
+        <option value="$PROJECT_DIR$/qq/src/main/resources/DockerFile/DockerFile" />
+        <option value="$PROJECT_DIR$/springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/src/main/java/com/azhu/springcloudeureka/SpringcloudEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/src/main/java/com/azhu/springcloudeureka/web/TestController.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/target/DockerFile" />
+        <option value="$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/sql/Length.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/SpringcloudProviderApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/service/TestInterface.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/SpringcloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/service/TestImp.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/service/TestInterface.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/MD5/MD5.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5_demo.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/springcloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer/target/DockerFile" />
         <option value="$PROJECT_DIR$/springcloud-provider/target/DockerFile" />
@@ -113,50 +227,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/controller/QQController.java" />
         <option value="$PROJECT_DIR$/qq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/快速失败和安全失败/FastFail.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5.java" />
         <option value="$PROJECT_DIR$/JavaSE/src/main/java/数据类型/BigDecimal_Demo.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/时间格式转化/DateDemo.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterface.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/For.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DruidDataSourceProperties.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DynamicPlugin.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceAopInService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/test/java/com/azhu/springbootdatasource/TestDataSource.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/ChatType.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/MessageInfoMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/vo/ResponseJson.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/JsonMsgHelper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/MyBatisUtil_Oracle.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/FileUploadService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/RegisterServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/RegisterService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/ChatService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/SecurityService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/Constant.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/MailUtil.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/test/java/com/azhu/springbootdatasource/SpringbootDatasourceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/datasource/DataSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/datasource/DataSourceAopInService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/MessageInfo.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/BelongMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/ContactMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/GroupInfoMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/FileUploadServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/ChatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/SecurityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/GroupInfo.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/UserInfo.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceContextHolder.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceType.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/MyAbstractRoutingDataSource.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/UserInfoMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/SpringbootDatasourceApplication.java" />
       </list>
     </option>
   </component>
@@ -172,18 +244,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="width" value="1940" />
-    <option name="height" value="1047" />
+    <option name="x" value="327" />
+    <option name="y" value="11" />
+    <option name="width" value="1668" />
+    <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,8 +268,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,41 +279,33 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="15" />
-    <property name="RequestMappingsPanelWidth1" value="15" />
-    <property name="RequestMappingsPanelWidth2" value="15" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-consumer/target/DockerFile" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15372169" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\springcloud\src\main\java\com\azhu\eureka" />
-      <recent name="D:\study" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.azhu.springbootdatasource" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\springcloud-provider\target" />
+      <recent name="D:\study\springcloud-consumer\target" />
+      <recent name="D:\study\springcloud-eureka\target" />
+      <recent name="D:\study\springcloud-eureka\src\main\resources" />
+      <recent name="D:\study\qq\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.azhu.springbootdatasource.model.po" />
-      <recent name="com.azhu.springbootdatasource.model.vo" />
-      <recent name="com.azhu.springbootdatasource.util" />
       <recent name="main.java.MD5" />
       <recent name="com.azhu.springcloudeureka.web" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\springboot-datasource\src\main\java\com\azhu\springbootdatasource\service" />
-      <recent name="D:\study\springboot-datasource\src\main\java\com\azhu\springbootdatasource\mapper" />
-      <recent name="D:\study\springboot-datasource\src\main\java\com\azhu\springbootdatasource\model" />
-      <recent name="D:\study\springboot-datasource\src\main\java\com\azhu\springbootdatasource\common\datasource" />
-      <recent name="D:\study\springboot-datasource\src\main\java\com\azhu\springbootdatasource\util" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\springcloud\src\main\java\com\azhu\eureka" />
+      <recent name="D:\study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootDatasourceApplication">
+  <component name="RunManager" selected="JUnit.JedisDemo1.T1">
     <configuration name="Integer_demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.java基本类型.Integer_demo" />
       <module name="JavaSE" />
@@ -278,85 +341,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateDemo.SimpleDateFormatDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigDecimal_Demo.compareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.时间格式转化.*" />
+          <option name="PATTERN" value="main.java.数据类型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.时间格式转化" />
-      <option name="MAIN_CLASS_NAME" value="main.java.时间格式转化.DateDemo" />
-      <option name="METHOD_NAME" value="SimpleDateFormatDemo" />
+      <option name="PACKAGE_NAME" value="main.java.数据类型" />
+      <option name="MAIN_CLASS_NAME" value="main.java.数据类型.BigDecimal_Demo" />
+      <option name="METHOD_NAME" value="compareTo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateDemo.getMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JedisDemo1.T1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.azhu.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.azhu.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.azhu.jedis.JedisDemo1" />
+      <option name="METHOD_NAME" value="T1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Length.Length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.时间格式转化.*" />
+          <option name="PATTERN" value="main.java.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.时间格式转化" />
-      <option name="MAIN_CLASS_NAME" value="main.java.时间格式转化.DateDemo" />
-      <option name="METHOD_NAME" value="getMonth" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionInterfaceTest.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.Lambda表达式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.Lambda表达式" />
-      <option name="MAIN_CLASS_NAME" value="main.java.Lambda表达式.FunctionInterfaceTest" />
-      <option name="METHOD_NAME" value="testLambda" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootDatasourceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-datasource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.azhu.springbootdatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.azhu.springbootdatasource" />
-      <option name="MAIN_CLASS_NAME" value="com.azhu.springbootdatasource.SpringbootDatasourceApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDataSource.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-datasource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.azhu.springbootdatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.azhu.springbootdatasource" />
-      <option name="MAIN_CLASS_NAME" value="com.azhu.springbootdatasource.TestDataSource" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="main.java.sql" />
+      <option name="MAIN_CLASS_NAME" value="main.java.sql.Length" />
+      <option name="METHOD_NAME" value="Length" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -365,6 +394,23 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="md5_demo.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.MD5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.MD5" />
+      <option name="MAIN_CLASS_NAME" value="main.java.MD5.md5_demo" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -398,13 +444,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootDatasourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-datasource" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootdatasource.SpringbootDatasourceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringcloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudconsumer.SpringcloudConsumerApplication" />
@@ -434,6 +473,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="eureka" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="eureka:latest" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8761" />
+                <option name="hostPort" value="8761" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="QQ_Login" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
@@ -529,11 +588,11 @@
       <item itemvalue="Docker.consumer" />
       <item itemvalue="Docker.eureka" />
       <item itemvalue="Docker.QQ_Login" />
-      <item itemvalue="JUnit.DateDemo.SimpleDateFormatDemo" />
-      <item itemvalue="JUnit.DateDemo.getMonth" />
-      <item itemvalue="JUnit.FunctionInterfaceTest.testLambda" />
-      <item itemvalue="JUnit.SpringbootDatasourceApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.TestDataSource.test1" />
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="JUnit.BigDecimal_Demo.compareTo" />
+      <item itemvalue="JUnit.Length.Length" />
+      <item itemvalue="JUnit.md5_demo.Test1" />
+      <item itemvalue="JUnit.JedisDemo1.T1" />
       <item itemvalue="Spring Boot.SpringcloudEurekaApplication" />
       <item itemvalue="Spring Boot.Oauth2SsoAuthServerApplication" />
       <item itemvalue="Spring Boot.Oauth2SsoClientOrderApplication" />
@@ -541,15 +600,14 @@
       <item itemvalue="Spring Boot.QqApplication" />
       <item itemvalue="Spring Boot.SpringcloudProviderApplication" />
       <item itemvalue="Spring Boot.SpringcloudConsumerApplication" />
-      <item itemvalue="Spring Boot.SpringbootDatasourceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringbootDatasourceApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.TestDataSource.test1" />
-        <item itemvalue="JUnit.FunctionInterfaceTest.testLambda" />
-        <item itemvalue="JUnit.DateDemo.getMonth" />
-        <item itemvalue="JUnit.DateDemo.SimpleDateFormatDemo" />
+        <item itemvalue="JUnit.JedisDemo1.T1" />
+        <item itemvalue="JUnit.md5_demo.Test1" />
+        <item itemvalue="JUnit.Length.Length" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="JUnit.BigDecimal_Demo.compareTo" />
       </list>
     </recent_temporary>
   </component>
@@ -582,16 +640,10 @@
       <workItem from="1566350139364" duration="14000" />
       <workItem from="1566350399540" duration="10663000" />
       <workItem from="1566457482898" duration="13717000" />
-      <workItem from="1566522891985" duration="22102000" />
-      <workItem from="1566785765476" duration="1037000" />
-      <workItem from="1566786896758" duration="6026000" />
-      <workItem from="1566807516980" duration="275000" />
-      <workItem from="1566807842291" duration="490000" />
-      <workItem from="1566814394143" duration="439000" />
-      <workItem from="1566816253856" duration="2486000" />
-      <workItem from="1566898812211" duration="5616000" />
-      <workItem from="1566984273584" duration="21666000" />
-      <workItem from="1567394464318" duration="1462000" />
+      <workItem from="1566522891985" duration="20717000" />
+      <workItem from="1566823882364" duration="1722000" />
+      <workItem from="1566828968104" duration="2571000" />
+      <workItem from="1566904568391" duration="838000" />
     </task>
     <task id="LOCAL-00001" summary="导入了一个别人的sso单点登录的小demo可以运行，注意mysql版本不低于5.6、否则sql无法写入">
       <created>1563872328974</created>
@@ -628,85 +680,50 @@
       <option name="project" value="LOCAL" />
       <updated>1566549659245</updated>
     </task>
-    <task id="LOCAL-00006" summary="多模块项目的配置还存在一些问题&#10;1.在子项目中配置说明父项目错误，&#10;2.提交的的时候配置文件没有提交">
-      <created>1566784422164</created>
+    <task id="LOCAL-00006" summary=":art:Ubuntu下测试提交">
+      <created>1566824636345</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1566784422164</updated>
+      <updated>1566824636345</updated>
     </task>
-    <task id="LOCAL-00007" summary=":art:测试合并">
-      <created>1566868469489</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1566868469489</updated>
-    </task>
-    <task id="LOCAL-00008" summary="测试合并后提交">
-      <created>1566869534457</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1566869534457</updated>
-    </task>
-    <task id="LOCAL-00009" summary=":sparkles:日期格式转化，获取当天是几号">
-      <created>1566960994176</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1566960994176</updated>
-    </task>
-    <task id="LOCAL-00010" summary=":art:添加获取当前的月和日">
-      <created>1566962550071</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1566962550071</updated>
-    </task>
-    <task id="LOCAL-00011" summary=":art:增加新模块，数据库读写分离demo">
-      <created>1567160325034</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1567160325034</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateDemo_SimpleDateFormatDemo - 2019.08.28 at 10h 43m 58s.xml">
-      <configuration name="DateDemo.SimpleDateFormatDemo" configurationId="JUnit" />
+    <history-entry file="BigDecimal_Demo_compareTo - 2019.08.21 at 14h 35m 28s.xml">
+      <configuration name="BigDecimal_Demo.compareTo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateDemo_getMonth - 2019.08.28 at 11h 19m 08s.xml">
-      <configuration name="DateDemo.getMonth" configurationId="JUnit" />
+    <history-entry file="BigDecimal_Demo_compareTo - 2019.08.21 at 14h 38m 10s.xml">
+      <configuration name="BigDecimal_Demo.compareTo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateDemo_getMonth - 2019.08.28 at 11h 19m 30s.xml">
-      <configuration name="DateDemo.getMonth" configurationId="JUnit" />
+    <history-entry file="Length_Length - 2019.08.22 at 17h 43m 28s.xml">
+      <configuration name="Length.Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionInterfaceTest_testLambda - 2019.08.29 at 11h 06m 20s.xml">
-      <configuration name="FunctionInterfaceTest.testLambda" configurationId="JUnit" />
+    <history-entry file="Length_Length - 2019.08.22 at 17h 45m 06s.xml">
+      <configuration name="Length.Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionInterfaceTest_testLambda - 2019.08.29 at 11h 08m 03s.xml">
-      <configuration name="FunctionInterfaceTest.testLambda" configurationId="JUnit" />
+    <history-entry file="Length_Length - 2019.08.22 at 17h 46m 08s.xml">
+      <configuration name="Length.Length" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceApplicationTests_contextLoads - 2019.08.30 at 15h 46m 52s.xml">
-      <configuration name="SpringbootDatasourceApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="md5_demo_Test1 - 2019.08.23 at 10h 34m 19s.xml">
+      <configuration name="md5_demo.Test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceApplicationTests_contextLoads - 2019.08.30 at 15h 47m 52s.xml">
-      <configuration name="SpringbootDatasourceApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="md5_demo_Test1 - 2019.08.23 at 10h 38m 47s.xml">
+      <configuration name="md5_demo.Test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDataSource_test1 - 2019.08.30 at 15h 49m 28s.xml">
-      <configuration name="TestDataSource.test1" configurationId="JUnit" />
+    <history-entry file="md5_demo_Test1 - 2019.08.23 at 10h 53m 12s.xml">
+      <configuration name="md5_demo.Test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDataSource_test1 - 2019.08.30 at 16h 06m 23s.xml">
-      <configuration name="TestDataSource.test1" configurationId="JUnit" />
+    <history-entry file="md5_demo_Test1 - 2019.08.23 at 11h 16m 24s.xml">
+      <configuration name="md5_demo.Test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceApplicationTests_contextLoads - 2019.08.30 at 16h 27m 59s.xml">
-      <configuration name="SpringbootDatasourceApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="JedisDemo1_T1 - 2019.08.26 at 21h 02m 22s.xml">
+      <configuration name="JedisDemo1.T1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124509000" />
+    <option name="totallyTimeSpent" value="88758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,49 +735,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49658313" visible="true" weight="0.24040511" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829352" visible="true" weight="0.2418373" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50341684" side_tool="true" weight="0.24040511" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5479744" weight="0.32739422" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59914714" weight="0.27728286" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5479744" weight="0.36020944" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59914714" weight="0.29064587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32951945" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" sideWeight="0.5623667" weight="0.29175946" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50124377" side_tool="true" weight="0.29795396" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840087" weight="0.25084364" />
+      <window_info anchor="bottom" id="Docker" order="9" sideWeight="0.5623667" weight="0.38418707" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.27728286" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840087" weight="0.2513089" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49875623" visible="true" weight="0.24832962" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.13140312" />
       <window_info active="true" anchor="bottom" id="ZooKeeper" order="15" visible="true" weight="0.29321662" />
       <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.49877" weight="0.3295838" />
       <window_info anchor="bottom" id="Problems" order="17" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32962137" />
-      <window_info anchor="bottom" id="Redis Servers" order="19" show_stripe_button="false" sideWeight="0.4989339" weight="0.37272727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3295129" />
-      <window_info anchor="right" id="Database" order="6" weight="0.19978225" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.20033205" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.18390192" />
-      <window_info anchor="right" id="zoolytic" order="11" weight="0.20042644" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.13281682" />
+      <window_info anchor="right" id="zoolytic" order="11" weight="0.20049201" />
       <window_info anchor="right" id="Structure" order="12" sideWeight="0.5017065" weight="0.24200426" />
-      <window_info anchor="right" id="Redis Explorer" order="13" weight="0.329602" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,13 +797,8 @@
     <MESSAGE value="改" />
     <MESSAGE value="增:新增了一个springcloud的demo，consumer模块可以调用provider模块的接口,   &#10;ps:(springboot和fegin的版本要对应)  不然接口注入会报异常" />
     <MESSAGE value="QQ联登成功,了解了http和https的区别，想要把自己的阿里云域名www.azhu.work使用https访问还得需要ssl证书" />
-    <MESSAGE value="多模块项目的配置还存在一些问题&#10;1.在子项目中配置说明父项目错误，&#10;2.提交的的时候配置文件没有提交" />
-    <MESSAGE value=":art:测试合并" />
-    <MESSAGE value="测试合并后提交" />
-    <MESSAGE value=":sparkles:日期格式转化，获取当天是几号" />
-    <MESSAGE value=":art:添加获取当前的月和日" />
-    <MESSAGE value=":art:增加新模块，数据库读写分离demo" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art:增加新模块，数据库读写分离demo" />
+    <MESSAGE value=":art:Ubuntu下测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art:Ubuntu下测试提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -810,149 +820,290 @@
     <option name="enabled" value="true" />
     <option name="tooltip" value="true" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/MyBatisUtil_Oracle.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/MailUtil.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/Constant.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/FileUtils.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/MyBatisUtil.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/ChatType.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/util/JsonMsgHelper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/JsonMsgHelper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/MyBatisUtil.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/FileUtils.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/MyBatisUtil_Oracle.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/ChatType.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/vo/ResponseJson.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/Constant.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/util/MailUtil.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.9.RELEASE/spring-test-5.1.9.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringRunner.java">
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/test/java/com/azhu/springbootdatasource/TestDataSource.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/Contact.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/MessageInfo.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/BelongMapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/ContactMapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/GroupInfoMapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/MessageInfoMapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/Belong.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/RegisterService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/SecurityService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/FileUploadService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/ChatService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/FileUploadServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/RegisterServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/ChatServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/SecurityServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/GroupInfo.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceAopInService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DruidDataSourceProperties.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DynamicPlugin.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="175">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/UserInfoService.java">
+    <entry file="file://$PROJECT_DIR$/eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springcloud/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springcloud/springcloud.iml" />
+    <entry file="file://$PROJECT_DIR$/springcloud/src/test/java/com/azhu/eureka/EurekaApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud/src/main/java/com/azhu/eureka/EurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/qq/target/DockerFile" />
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/target/DockerFile" />
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/azhu/springcloudeureka/SpringcloudEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/MyAbstractRoutingDataSource.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/azhu/springcloudeureka/web/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/service/TestInterface.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/service/TestImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/common/datasource/DataSourceContextHolder.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/service/TestInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="178">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/test/java/com/azhu/springbootdatasource/SpringbootDatasourceApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/SpringcloudProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/model/po/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/mapper/UserInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/src/test/java/com/azhu/springcloudconsumer/SpringcloudConsumerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/SpringcloudConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/SpringbootDatasourceApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/target/DockerFile" />
+    <entry file="file://$PROJECT_DIR$/springcloud-provider/target/DockerFile" />
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer/src/main/java/com/azhu/springcloudconsumer/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="525">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/service/impl/UserInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/MD5/MD5.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="32">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
+    <entry file="file://$PROJECT_DIR$/qq/src/test/java/com/azhu/qq/QqApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/DockerFile/DockerFile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/view/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/controller/QQController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="513">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-datasource/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5.java" />
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5_demo.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/JedisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/JedisDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/sql/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/数据类型/BigDecimal_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/QqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/utils/QQHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5b21a01-45b6-45d9-b910-a93ad50240ea/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
