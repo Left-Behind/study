@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="redis" />
         <module name="qq" />
+        <module name="springboot-datasource" />
+        <module name="springboot-datasource-aop" />
         <module name="springcloud-consumer" />
         <module name="oauth2-sso-client-member" />
         <module name="oauth2-sso-auth-server" />
@@ -29,6 +31,7 @@
       <module name="oauth2-sso-client-member" options="-parameters" />
       <module name="oauth2-sso-client-order" options="-parameters" />
       <module name="qq" options="-parameters" />
+      <module name="springboot-datasource-aop" options="" />
       <module name="springcloud-consumer" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-provider" options="-parameters" />

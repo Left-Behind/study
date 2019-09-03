@@ -24,8 +24,9 @@ import java.lang.reflect.Method;
 public class DynamicDataSourceAspect {
     private static final Logger LOG = Logger.getLogger(DynamicDataSourceAspect.class);
 
-    @Pointcut("execution(* com.azhu.springbootdatasource.service.*.list*(..))")
+    @Pointcut("execution(* com.azhu.springbootdatasource.service..*.query*(..))")
     public void pointCut() {
+        LOG.info("正在执行查询语句！");
     }
 
     /**
