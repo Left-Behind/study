@@ -104,4 +104,64 @@ public class List_Remove_Demo {
         System.out.println(list);
         System.out.println(list.hashCode());
     }
+
+    /**
+     * 测试一下iterator和Lambda删除的效率
+     * Lambda表达式要先找到不符合的数据再删除
+     * 而iterator是直接删除的
+     * 感觉应该是iterato删除快于Lambda
+     * 数据量小的时候iterator优于Lambda
+     * 数据量逐渐增大的时候Lambda优势慢慢展现
+     *  5000数据量
+     * -----------数据生成完毕-----------
+     * Iterator 删除元素耗时:40
+     * Lambda 删除元素耗时:93
+     *
+     * 50 000数据量
+     * -----------数据生成完毕-----------
+     * Iterator 删除元素耗时:410
+     * Lambda 删除元素耗时:144
+     *
+     * 500 000数据量差距很明显
+     * -----------数据生成完毕-----------
+     * Iterator 删除元素耗时:47590
+     * Lambda 删除元素耗时:825
+     */
+    @Test
+    public void Test() {
+        //初始化List大小
+        List<String> list1=new ArrayList<>(5000);
+        List<String> list2=new ArrayList<>(5000);
+
+        for(int i=0;i<5000;i++){
+            list1.add(i,i+"");
+            list2.add(i,i+"");
+            if(i%2==0){
+                list1.add(i,null);
+                list2.add(i,null);
+            }
+            if(i%4==0){
+                list1.add(i,"");
+                list2.add(i,"");
+            }
+        }
+        System.out.println("-----------数据生成完毕-----------");
+        long start1=System.currentTimeMillis();
+        Iterator<String> it1 = list1.iterator();
+        while (it1.hasNext()) {
+            String str = it1.next();
+            if ( StringUtils.isEmpty(str)) {
+                it1.remove();
+            }
+        }
+        long end1=System.currentTimeMillis();
+        System.out.println("Iterator 删除元素耗时:"+(end1-start1)+"");
+
+        long start2=System.currentTimeMillis();
+        list2.removeIf(e -> StringUtils.isEmpty(e));
+        long end2=System.currentTimeMillis();
+        System.out.println("Lambda 删除元素耗时:"+(end2-start2)+"");
+
+
+    }
 }
