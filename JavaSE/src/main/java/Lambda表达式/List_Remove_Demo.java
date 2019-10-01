@@ -1,4 +1,4 @@
-package main.java.Lambda表达式;
+package Lambda表达式;
 
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;

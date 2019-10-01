@@ -2,27 +2,38 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis" />
+        <module name="JavaSE" />
+        <module name="oauth2-sso-auth-server" />
+        <module name="oauth2-sso-client-member" />
+        <module name="oauth2-sso-client-order" />
         <module name="qq" />
+        <module name="redis" />
         <module name="springboot-datasource" />
         <module name="springboot-datasource-aop" />
         <module name="springcloud-consumer" />
-        <module name="oauth2-sso-client-member" />
-        <module name="oauth2-sso-auth-server" />
         <module name="springcloud-eureka" />
         <module name="springcloud-provider" />
-        <module name="oauth2-sso-client-order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JavaSE" target="1.8" />
       <module name="oauth2-sso-server" target="6" />
       <module name="oauth2ssoclientmember" target="1.5" />
       <module name="oauth2ssoclientorder" target="1.5" />
       <module name="oauth2ssoserver" target="8" />
+      <module name="qq" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="springboot-datasource" target="1.8" />
+      <module name="springboot-datasource-aop" target="1.8" />
+      <module name="springcloud-consumer" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-provider" target="1.8" />
+      <module name="study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

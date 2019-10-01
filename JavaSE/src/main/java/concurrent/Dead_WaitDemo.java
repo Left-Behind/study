@@ -1,4 +1,4 @@
-package main.java.concurrent;
+package concurrent;
 
 /**
  * @author ：Azhu

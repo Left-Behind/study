@@ -1,4 +1,4 @@
-package main.java.Lambda表达式;
+package Lambda表达式;
 
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class FunctionInterfaceTest {
     @Test
     public void testLambda(){
 
-        func(new FunctionInterface() {
+        func(new Lambda表达式.FunctionInterface() {
             @Override
             public void test() {
                 System.out.println("Hello Lambda");
