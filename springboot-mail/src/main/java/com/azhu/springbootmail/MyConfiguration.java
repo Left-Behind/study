@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Component
 @Configuration
-@PropertySource(value = {"classpath:/application.yml"}, encoding = "utf-8")
+@PropertySource(value = {"classpath:/application.properties"}, encoding = "utf-8")
 @ConfigurationProperties(prefix = "test")
 public class MyConfiguration {
 
