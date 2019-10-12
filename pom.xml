@@ -15,9 +15,9 @@
         <module>springcloud-provider</module>
         <module>springboot-datasource-aop</module>
         <module>springboot-datasource</module>
+        <module>springboot-session-redis</module>
         <module>qq</module>
         <module>javase</module>
-        <module>springboot-mail</module>
     </modules>
 
     <properties>
