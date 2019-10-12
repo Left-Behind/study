@@ -1,4 +1,4 @@
-package main.java.时间格式转化;
+package timeformat;
 
 import org.junit.Test;
 

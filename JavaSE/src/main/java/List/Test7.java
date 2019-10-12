@@ -1,11 +1,11 @@
-package main.java.List;
+package List;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class 短路运算符测试 {
+public class Test7 {
 
     @Test
     public void _Test1(){
