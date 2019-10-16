@@ -16,8 +16,26 @@ import java.util.Arrays;
 @Aspect
 @Component
 public class LogAspect {
+    /**
+     * execution函数用于匹配方法执行的连接点，语法为：
+     *
+     * execution(方法修饰符(可选)  返回类型  方法名  参数  异常模式(可选))
+     * 参数部分允许使用通配符：
+     *
+     * 匹配任意字符，但只能匹配一个元素
+     * .. 匹配任意字符，可以匹配任意多个元素，表示类时，必须和*联合使用
+     * 必须跟在类名后面，如Horseman+，表示类本身和继承或扩展指定类的所有类
+     */
     @Pointcut("execution(public * com.azhu.springbootaop.controller.*.*(..))")
     public void webLog(){}
+
+
+    //可以不用定义切点直接写，
+    @Before("execution(public * com.azhu.springbootaop.controller1.*.*(..))")
+    public void doBefore1(JoinPoint joinPoint) throws Throwable {
+        System.out.println("测试AOP");
+
+    }
 
     @Before("webLog()")
     public void deBefore(JoinPoint joinPoint) throws Throwable {
