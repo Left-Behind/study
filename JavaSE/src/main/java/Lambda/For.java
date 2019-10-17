@@ -1,4 +1,4 @@
-package main.java.Lambda表达式;
+package Lambda;
 
 import org.junit.Test;
 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>端口8082服务</title>
+</head>
+<body>
+<!--这里要有个坑,因为服务器上已经做了负载均衡http://tomcats/session(www.azhu.work)已经添加了项目名称
+服务器上 格式:/test
+本地测试 格式:/session/test;
+这个坑不存在了，ngnix反向代理如果加上项目名称，其他地方访问会丢失我上一次的cookie里面有sessionId
+-->
+<form action="/test" method="post">
+    userName: <input type="text" name="userName" />
+    passWord: <input type="text" name="passWord" />
+
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>

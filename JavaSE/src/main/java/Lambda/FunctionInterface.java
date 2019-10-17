@@ -1,4 +1,4 @@
-package Lambda表达式;
+package Lambda;
 
 /**
  * @author Azhu
