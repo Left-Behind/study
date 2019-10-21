@@ -14,7 +14,7 @@
     <groupId>com.azhu</groupId>
     <artifactId>javase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>javase</name>
+    <name>JavaSE</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

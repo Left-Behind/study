@@ -17,8 +17,9 @@
         <module>springboot-datasource</module>
         <module>springboot-session-redis</module>
         <module>qq</module>
-        <module>JavaSE</module>
         <module>springboot-aop</module>
+        <module>springboot-mail</module>
+        <module>JavaSE</module>
     </modules>
 
     <properties>
