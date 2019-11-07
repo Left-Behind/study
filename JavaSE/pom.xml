@@ -12,7 +12,7 @@
 
     <!--自己本身模块定义-->
     <groupId>com.azhu</groupId>
-    <artifactId>javase</artifactId>
+    <artifactId>JavaSE</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>JavaSE</name>
     <description>Demo project for Spring Boot</description>
