@@ -12,7 +12,7 @@
 
     <!--自己本身模块定义-->
     <groupId>com.azhu</groupId>
-    <artifactId>javase</artifactId>
+    <artifactId>JavaSE</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>JavaSE</name>
     <description>Demo project for Spring Boot</description>
@@ -34,6 +34,11 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    <build>
+        <outputDirectory>out</outputDirectory>
+        <!--定义项目编译路径如果不起作用需要去项目结构里重新配置-->
+    </build>
+
 
 
 </project>
