@@ -1,4 +1,4 @@
-package work.azhu.springbootnetty.IO;
+package work.azhu.springbootnetty.io;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelHandlerContext;
@@ -34,6 +34,6 @@ public class NettyServer {
                         });
                     }
                 })
-                .bind(8002);
+                .bind(8000);
     }
 }

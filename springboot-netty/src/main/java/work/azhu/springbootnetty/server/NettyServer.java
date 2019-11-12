@@ -1,13 +1,11 @@
-package work.azhu.springbootnetty.main;
+package work.azhu.springbootnetty.server;
 
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;
-import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.string.StringDecoder;
+import work.azhu.springbootnetty.server.FirstServerHandler;
 
 /**
  * @Author Azhu
@@ -23,9 +21,9 @@ public class NettyServer {
         serverBootstrap
                 // 1.指定线程模型
                 .group(bossGroup, workerGroup)
-                // 2.指定 IO 类型为 NIO
+                // 2.指定 io 类型为 NIO
                 .channel(NioServerSocketChannel.class)
-                // 3.IO 处理逻辑
+                // 3.io 处理逻辑
                 .childHandler(new ChannelInitializer<NioSocketChannel>() {
                     @Override
                     protected void initChannel(NioSocketChannel ch) {

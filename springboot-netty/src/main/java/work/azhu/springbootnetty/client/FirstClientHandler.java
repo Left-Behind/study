@@ -1,4 +1,4 @@
-package work.azhu.springbootnetty.main;
+package work.azhu.springbootnetty.client;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

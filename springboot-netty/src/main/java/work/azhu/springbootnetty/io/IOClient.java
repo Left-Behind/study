@@ -1,4 +1,4 @@
-package work.azhu.springbootnetty.IO;
+package work.azhu.springbootnetty.io;
 
 import java.io.IOException;
 import java.net.Socket;
