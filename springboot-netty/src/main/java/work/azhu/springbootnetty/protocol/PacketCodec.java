@@ -1,52 +1,64 @@
 package work.azhu.springbootnetty.protocol;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
-import work.azhu.springbootnetty.protocol.command.LoginRequestPacket;
-import work.azhu.springbootnetty.protocol.command.Packet;
+import work.azhu.springbootnetty.protocol.request.*;
+import work.azhu.springbootnetty.protocol.response.*;
 import work.azhu.springbootnetty.serialize.Serializer;
 import work.azhu.springbootnetty.serialize.impl.JSONSerializer;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static work.azhu.springbootnetty.protocol.command.Command.LOGIN_REQUEST;
+import static work.azhu.springbootnetty.protocol.command.Command.*;
 
 /**
  * @Author Azhu
  * @Description //TODO
  * @Date 2019/11/12 20:29
  **/
-public class PacketCodeC {
-    private static final int MAGIC_NUMBER = 0x12345678;
-    private static final Map<Byte, Class<? extends Packet>> packetTypeMap;
-    private static final Map<Byte, Serializer> serializerMap;
+public class PacketCodec {
+    public static final int MAGIC_NUMBER = 0x12345678;
+    public static final PacketCodec INSTANCE = new PacketCodec();
 
-    static {
+    private final Map<Byte, Class<? extends Packet>> packetTypeMap;
+    private final Map<Byte, Serializer> serializerMap;
+
+
+    private PacketCodec() {
         packetTypeMap = new HashMap<>();
         packetTypeMap.put(LOGIN_REQUEST, LoginRequestPacket.class);
+        packetTypeMap.put(LOGIN_RESPONSE, LoginResponsePacket.class);
+        packetTypeMap.put(MESSAGE_REQUEST, MessageRequestPacket.class);
+        packetTypeMap.put(MESSAGE_RESPONSE, MessageResponsePacket.class);
+        packetTypeMap.put(LOGOUT_REQUEST, LogoutRequestPacket.class);
+        packetTypeMap.put(LOGOUT_RESPONSE, LogoutResponsePacket.class);
+        packetTypeMap.put(CREATE_GROUP_REQUEST, CreateGroupRequestPacket.class);
+        packetTypeMap.put(CREATE_GROUP_RESPONSE, CreateGroupResponsePacket.class);
+        packetTypeMap.put(JOIN_GROUP_REQUEST, JoinGroupRequestPacket.class);
+        packetTypeMap.put(JOIN_GROUP_RESPONSE, JoinGroupResponsePacket.class);
+        packetTypeMap.put(QUIT_GROUP_REQUEST, QuitGroupRequestPacket.class);
+        packetTypeMap.put(QUIT_GROUP_RESPONSE, QuitGroupResponsePacket.class);
+        packetTypeMap.put(LIST_GROUP_MEMBERS_REQUEST, ListGroupMembersRequestPacket.class);
+        packetTypeMap.put(LIST_GROUP_MEMBERS_RESPONSE, ListGroupMembersResponsePacket.class);
+        packetTypeMap.put(GROUP_MESSAGE_REQUEST, GroupMessageRequestPacket.class);
+        packetTypeMap.put(GROUP_MESSAGE_RESPONSE, GroupMessageResponsePacket.class);
 
         serializerMap = new HashMap<>();
         Serializer serializer = new JSONSerializer();
         serializerMap.put(serializer.getSerializerAlgorithm(), serializer);
     }
 
-
-    public ByteBuf encode(Packet packet) {
-        // 1. 创建 ByteBuf 对象
-        ByteBuf byteBuf = ByteBufAllocator.DEFAULT.ioBuffer();
-        // 2. 序列化 java 对象
+    public void encode(ByteBuf byteBuf, Packet packet) {
+        // 1. 序列化 java 对象
         byte[] bytes = Serializer.DEFAULT.serialize(packet);
 
-        // 3. 实际编码过程
+        // 2. 实际编码过程
         byteBuf.writeInt(MAGIC_NUMBER);
         byteBuf.writeByte(packet.getVersion());
         byteBuf.writeByte(Serializer.DEFAULT.getSerializerAlgorithm());
         byteBuf.writeByte(packet.getCommand());
         byteBuf.writeInt(bytes.length);
         byteBuf.writeBytes(bytes);
-
-        return byteBuf;
     }
 
 

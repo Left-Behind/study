@@ -1,4 +1,4 @@
-package work.azhu.springbootnetty.protocol.command;
+package work.azhu.springbootnetty.protocol;
 
 
 import lombok.Data;

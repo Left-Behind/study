@@ -1,20 +1,14 @@
-package work.azhu.springbootnetty.protocol.command;
+package work.azhu.springbootnetty.protocol.request;
 
 import lombok.Data;
-import work.azhu.springbootnetty.protocol.command.Packet;
+import work.azhu.springbootnetty.protocol.Packet;
 
 import static work.azhu.springbootnetty.protocol.command.Command.LOGIN_REQUEST;
 
-/**
- * @Author Azhu
- * @Description //TODO
- * @Date 2019/11/12 20:00
- **/
+
 @Data
 public class LoginRequestPacket extends Packet {
-    private Integer userId;
-
-    private String username;
+    private String userName;
 
     private String password;
 

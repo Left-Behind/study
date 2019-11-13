@@ -17,6 +17,12 @@ public class FirstClientHandler extends ChannelInboundHandlerAdapter {
     public void channelActive(ChannelHandlerContext ctx) {
         System.out.println(new Date() + ": 客户端写出数据");
 
+        //测试拆包粘包
+        for (int i = 0; i < 1000; i++) {
+            ByteBuf buffer = getByteBuf(ctx);
+            ctx.channel().writeAndFlush(buffer);
+        }
+
         // 1. 获取数据
         ByteBuf buffer = getByteBuf(ctx);
 
