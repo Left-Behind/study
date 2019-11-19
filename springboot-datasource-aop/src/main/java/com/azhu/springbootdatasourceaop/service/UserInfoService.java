@@ -15,7 +15,7 @@ public interface UserInfoService {
 
     List<UserInfo> queryAllUserInfo();
 
-    Integer updataUserInfo(UserInfo userInfo);
+    Integer updateUserInfo(UserInfo userInfo);
 
     Integer deleteUserInfoById(Integer id);
 
