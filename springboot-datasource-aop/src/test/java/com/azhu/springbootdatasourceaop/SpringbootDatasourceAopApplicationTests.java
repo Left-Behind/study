@@ -37,9 +37,13 @@ public class SpringbootDatasourceAopApplicationTests {
         userInfo.setAvatarUrl("12315646489");
         Integer insert=userInfoService.insertUserInfo(userInfo);
         userInfo1=userInfoService.queryUserInfoByUserId(3);
-        Integer update=userInfoService.updataUserInfo(userInfo);
+        Integer update=userInfoService.updateUserInfo(userInfo);
         //Thread.sleep(500);
         userInfo1=userInfoService.queryUserInfoByUserId(4);
 
+    }
+    @Test
+    public void DEL(){
+        userInfoService.deleteUserInfoById(6);
     }
 }
