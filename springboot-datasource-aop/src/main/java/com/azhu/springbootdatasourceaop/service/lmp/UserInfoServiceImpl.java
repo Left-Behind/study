@@ -32,7 +32,7 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     @Override
-    public Integer updataUserInfo(UserInfo userInfo) {
+    public Integer updateUserInfo(UserInfo userInfo) {
         return userInfoMapper.updateUserInfo(userInfo);
     }
 
