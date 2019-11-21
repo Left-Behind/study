@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    master:
+      jdbc-url: jdbc:mysql://www.azhu.work:13306/wechat?useSSL=false&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    slave1:
+      jdbc-url: jdbc:mysql://www.azhu.work:13307/wechat?useSSL=false&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true
+      username: readOnly
+      password: readOnly
+      driver-class-name: com.mysql.jdbc.Driver
+    slave2:
+      jdbc-url: jdbc:mysql://www.azhu.work:13308/wechat?useSSL=false&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true
+      username: readOnly
+      password: readOnly
+      driver-class-name: com.mysql.jdbc.Driver
