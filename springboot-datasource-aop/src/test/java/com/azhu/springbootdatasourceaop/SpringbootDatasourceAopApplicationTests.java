@@ -30,11 +30,11 @@ public class SpringbootDatasourceAopApplicationTests {
         }
         UserInfo userInfo=userInfoService.queryUserInfoByUserId(1);
         UserInfo userInfo1=userInfoService.queryUserInfoByUserId(2);
-        userInfo.setUserName("www.azhu.work");
+        userInfo.setUserName("测试1");
         userInfo.setUserId(8);
-        userInfo.setPassword("sdfsdfasd");
-        userInfo.setEmail("sdfdsf");
-        userInfo.setAvatarUrl("12315646489");
+        userInfo.setPassword("测试1");
+        userInfo.setEmail("测试1");
+        userInfo.setAvatarUrl("测试1");
         Integer insert=userInfoService.insertUserInfo(userInfo);
         userInfo1=userInfoService.queryUserInfoByUserId(3);
         Integer update=userInfoService.updateUserInfo(userInfo);
