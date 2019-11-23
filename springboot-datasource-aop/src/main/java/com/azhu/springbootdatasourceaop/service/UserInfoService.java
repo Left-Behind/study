@@ -20,4 +20,6 @@ public interface UserInfoService {
     Integer deleteUserInfoById(Integer id);
 
     Integer insertUserInfo(UserInfo userInfo);
+
+    UserInfo queryUserInfoByMaster(Integer id);
 }

@@ -1,5 +1,6 @@
 package com.azhu.springbootdatasourceaop.common.datasource;
 
+import com.alibaba.druid.filter.Filter;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.spring.stat.DruidStatInterceptor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,6 +23,7 @@ import org.springframework.core.env.Environment;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
@@ -51,18 +53,16 @@ public class DataSourceConfiguration {
 
     @Bean
     @Primary
-    @ConditionalOnProperty(prefix = CUSTOM_DATA_SOURCE_PREFIX, name = "names")
+    @ConditionalOnProperty(prefix = CUSTOM_DATA_SOURCE_PREFIX, name = "names")//配置文件里有prefix才会注入bean
     public DataSource dataSource(DruidDataSourceProperties properties) throws SQLException {
-
-        Iterable<ConfigurationPropertySource> sources = ConfigurationPropertySources.get(env);
-        Binder binder = new Binder(sources);
-        BindResult<Properties> bindResult = binder.bind(CUSTOM_DATA_SOURCE_PREFIX, Properties.class);
-        Properties property= bindResult.get();
+        //获取配置文件
+        Properties property= getPropertyByEnv();
         String dataSourceNames = property.getProperty("names");
         Map<Object, Object> targetDataSources = new HashMap<>();
         String writePrefix = DataSourceType.write.getType();
         String readPrefix = DataSourceType.read.getType();
         int readCnt = 0;
+        //循环配置druid数据源
         for (String dsName : dataSourceNames.split(SEPARATOR)) { ;
             properties.setUrl(property.getProperty(dsName+".url"));
             properties.setUsername(property.getProperty(dsName+".username"));
@@ -83,7 +83,7 @@ public class DataSourceConfiguration {
         dataSource.setTargetDataSources(targetDataSources);
         // 默认数据源（找不到数据源的时候使用）
         dataSource.setDefaultTargetDataSource(targetDataSources.get(writePrefix));
-        log.info("-------------------- MyAbstractRoutingDataSource inited ---------------------");
+        log.info("-------------------- MyAbstractRoutingDataSource inited successfull ---------------------");
         return dataSource;
     }
 
@@ -93,17 +93,19 @@ public class DataSourceConfiguration {
      * @param druidDataSource 数据源
      * @throws SQLException
      */
-    /*private void initDruidFilters(DruidDataSource druidDataSource) throws SQLException {
+     /*private void initDruidFilters(DruidDataSource druidDataSource) throws SQLException {
 
         List<Filter> filters = druidDataSource.getProxyFilters();
-
-        RelaxedPropertyResolver filterProperty = new RelaxedPropertyResolver(env, DRUID_DATA_SOURCE_PREFIX + ".filter.");
+         Iterable<ConfigurationPropertySource> sources = ConfigurationPropertySources.get(env);
+         Binder binder = new Binder(sources);
+         BindResult<Properties> bindResult = binder.bind(DRUID_DATA_SOURCE_PREFIX + ".filter.", Properties.class);
+         Properties filterProperty= bindResult.get();
 
         String[] filterNameArray = DRUID_FILTER_NAMES.split(SEPARATOR);
 
         for (String filterName : filterNameArray) {
             filterName = filterName.trim();
-            Map<String, Object> filterValueMap = filterProperty.getSubProperties(filterName + ".");
+            Map<String, Object> filterValueMap = filterProperty.getOrDefault(filterName + ".");
             String enabledVal = (String) filterValueMap.get("enabled");
             // stat缺省启用
             boolean enabled = "stat".equalsIgnoreCase(filterName) && enabledVal == null || "true".equalsIgnoreCase(enabledVal);
@@ -124,7 +126,7 @@ public class DataSourceConfiguration {
      * Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
      * 注意：不要使用spring.datasource.druid.aop-patterns。使用该配置会生成一个DefaultAdvisorAutoProxyCreator，从而导致多次代理
      */
-    @Bean
+    /*@Bean
     public Advice druidStatInterceptor() {
         return new DruidStatInterceptor();
     }
@@ -132,5 +134,12 @@ public class DataSourceConfiguration {
     @Bean
     public Advisor advisor() {
         return new RegexpMethodPointcutAdvisor("com.azhu.springbootdatasourceaop.service..*.*(..)", druidStatInterceptor());
+    }*/
+
+    public Properties getPropertyByEnv(){
+        Iterable<ConfigurationPropertySource> sources = ConfigurationPropertySources.get(env);
+        Binder binder = new Binder(sources);
+        BindResult<Properties> bindResult = binder.bind(CUSTOM_DATA_SOURCE_PREFIX, Properties.class);
+        return bindResult.get();
     }
 }

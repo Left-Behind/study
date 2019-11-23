@@ -1,6 +1,7 @@
 package com.azhu.springbootdatasourceaop.service.lmp;
 
 
+import com.azhu.springbootdatasourceaop.common.annotation.Master;
 import com.azhu.springbootdatasourceaop.mapper.UserInfoMapper;
 import com.azhu.springbootdatasourceaop.model.UserInfo;
 import com.azhu.springbootdatasourceaop.service.UserInfoService;
@@ -45,4 +46,13 @@ public class UserInfoServiceImpl implements UserInfoService {
     public Integer insertUserInfo(UserInfo userInfo) {
         return  userInfoMapper.insertUserInfo(userInfo);
     }
+
+
+    @Master
+    @Override
+    public UserInfo queryUserInfoByMaster(Integer id) {
+        return userInfoMapper.queryUserInfoByUserId(id);
+    }
+
+
 }

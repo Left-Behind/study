@@ -46,4 +46,13 @@ public class SpringbootDatasourceAopApplicationTests {
     public void DEL(){
         userInfoService.deleteUserInfoById(6);
     }
+
+
+    @Test
+    public void TestByMaster(){
+        System.out.println(userInfoService.queryUserInfoByMaster(1));
+        System.out.println(userInfoService.queryUserInfoByMaster(2));
+        System.out.println(userInfoService.queryUserInfoByMaster(3));
+        System.out.println(userInfoService.queryUserInfoByMaster(4));
+    }
 }

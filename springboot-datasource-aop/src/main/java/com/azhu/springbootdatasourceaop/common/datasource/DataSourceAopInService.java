@@ -17,9 +17,10 @@ import org.springframework.stereotype.Component;
 @ConditionalOnClass({DruidDataSource.class})
 public class DataSourceAopInService implements PriorityOrdered {
 
-    @Before("execution(* com.azhu.springbootdatasourceaop.service..*.find*(..)) "
+    @Before("!@annotation(com.azhu.springbootdatasourceaop.common.annotation.Master) "
+            + " && (execution(* com.azhu.springbootdatasourceaop.service..*.find*(..)) "
             + " || execution(* com.azhu.springbootdatasourceaop.service..*.get*(..)) "
-            + " || execution(* com.azhu.springbootdatasourceaop.service..*.query*(..))")
+            + " || execution(* com.azhu.springbootdatasourceaop.service..*.query*(..)))")
     public void setReadDataSourceType() {
         //如果已经开启写事务了，那之后的所有读都从写库读
        // if(!DataSourceType.write.getType().equals(DataSourceContextHolder.getReadOrWrite())){
@@ -30,7 +31,8 @@ public class DataSourceAopInService implements PriorityOrdered {
 
     }
 
-    @Before("execution(* com.azhu.springbootdatasourceaop.service..*.insert*(..)) "
+    @Before("@annotation(com.azhu.springbootdatasourceaop.common.annotation.Master) "
+            + " || execution(* com.azhu.springbootdatasourceaop.service..*.insert*(..)) "
             + " || execution(* com.azhu.springbootdatasourceaop.service..*.update*(..))"
             + " || execution(* com.azhu.springbootdatasourceaop.service..*.add*(..))"
             + " || execution(* com.azhu.springbootdatasourceaop.service..*.del*(..))"
