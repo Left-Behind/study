@@ -20,6 +20,9 @@
         <module>springboot-aop</module>
         <module>springboot-mail</module>
         <module>JavaSE</module>
+        <module>springboot-kafka-consumer</module>
+        <module>springboot-kafka-producer</module>
+        <module>springboot-netty</module>
     </modules>
 
     <properties>
