@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 根标签 -->
+<configuration>
+    <properties resource="db.properties"></properties>
+    <!-- 类型别名-->
+    <typeAliases>
+        <package name="com.pojo"/>
+    </typeAliases>
+    <!-- 设置一个默认的连接环境信息 -->
+    <environments default="mysql_developer">
+        <!-- 连接环境信息，取一个任意唯一的名字 -->
+        <environment id="mysql_developer">
+            <!-- mybatis使用jdbc事务管理方式 -->
+            <transactionManager type="jdbc"/>
+            <!-- mybatis使用连接池方式来获取连接 -->
+            <dataSource type="pooled">
+                <!-- 配置与数据库交互的4个必要属性 -->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--这里配置xml文件有点坑,如果pom没配置,maven是无法读取src下的xml文件,
+    目前了解到的读取xml文件只能这么一个个配置-->
+    <mappers>
+        <mapper resource="mapper/UserMapperXML.xml"/>
+        <package name="com.mapper.UserInfoMapper"/>
+    </mappers>
+</configuration>
