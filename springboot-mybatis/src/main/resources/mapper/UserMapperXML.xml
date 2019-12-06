@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="work.azhu.springbootmybatis.mapper.UserInfoMapper">
+
+    <select id="queryAllUserInfoList" resultType="work.azhu.springbootmybatis.pojo.UserInfo">
+        select * from user
+    </select>
+
+    <select id="queryUserInfoByUserId" resultType="work.azhu.springbootmybatis.pojo.UserInfo">
+        select userId,userName,avatarUrl,email from user where userId=#{id}
+    </select>
+
+    <insert id="insertUserInfo" parameterType="work.azhu.springbootmybatis.pojo.UserInfo">
+        insert into user (userName,password,avatarUrl,email) values (#{userName},#{password},#{avatarUrl},#{email})
+    </insert>
+
+    <insert id="insertBatchUserInfoList">
+        insert into user
+          (userName,password,avatarUrl,email)
+        values
+        <foreach collection ="list" item="item" separator =",">
+            (#{item.userName}, #{item.password}, #{item.avatarUrl},#{item.email})
+        </foreach >
+    </insert>
+
+    <update id="updateUserInfo" parameterType="work.azhu.springbootmybatis.pojo.UserInfo">
+        update user set userName=#{userName},password=#{password},avatarUrl=#{avatarUrl} where userId=#{userId}
+    </update>
+
+    <delete id="deleteUserInfoById" parameterType="Integer">
+        delete from user where userId= #{id}
+    </delete>
+</mapper>
