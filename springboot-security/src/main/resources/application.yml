@@ -1,2 +1,7 @@
 server:
   port: 9003
+spring:
+  resources:
+    static-locations: classpath:/
+  mvc:
+    static-path-pattern: /**
