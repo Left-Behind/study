@@ -95,6 +95,11 @@ public class PaymentController {
         return "index";
     }
 
+    @RequestMapping("orderList")
+    public String orderList(){
+
+        return "finish";
+    }
 
     /**
      * 微信支付

@@ -7,20 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alipay" />
         <module name="JavaSE" />
         <module name="oauth2-sso-auth-server" />
         <module name="oauth2-sso-client-member" />
         <module name="oauth2-sso-client-order" />
         <module name="qq" />
         <module name="redis" />
+        <module name="springboot-aop" />
         <module name="springboot-datasource" />
         <module name="springboot-datasource-aop" />
+        <module name="springboot-kafka-consumer" />
+        <module name="springboot-kafka-producer" />
+        <module name="springboot-mail" />
+        <module name="springboot-netty" />
+        <module name="springboot-security" />
+        <module name="springboot-session-redis" />
         <module name="springcloud-consumer" />
         <module name="springcloud-eureka" />
         <module name="springcloud-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alipay" target="1.8" />
       <module name="JavaSE" target="1.8" />
       <module name="oauth2-sso-server" target="6" />
       <module name="oauth2ssoclientmember" target="1.5" />
@@ -28,8 +37,15 @@
       <module name="oauth2ssoserver" target="8" />
       <module name="qq" target="1.8" />
       <module name="redis" target="1.8" />
+      <module name="springboot-aop" target="1.8" />
       <module name="springboot-datasource" target="1.8" />
       <module name="springboot-datasource-aop" target="1.8" />
+      <module name="springboot-kafka-consumer" target="1.8" />
+      <module name="springboot-kafka-producer" target="1.8" />
+      <module name="springboot-mail" target="1.8" />
+      <module name="springboot-netty" target="1.8" />
+      <module name="springboot-security" target="1.8" />
+      <module name="springboot-session-redis" target="1.8" />
       <module name="springcloud-consumer" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
       <module name="springcloud-provider" target="1.8" />

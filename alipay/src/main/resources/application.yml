@@ -4,4 +4,4 @@ spring:
   mvc:
     static-path-pattern: /**
 server:
-  port: 9002
+  port: 8005

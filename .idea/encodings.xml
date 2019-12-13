@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/alipay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-datasource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-datasource-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-session-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider" charset="UTF-8" />
