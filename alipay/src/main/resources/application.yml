@@ -1,0 +1,7 @@
+spring:
+  resources:
+    static-locations: classpath:/
+  mvc:
+    static-path-pattern: /**
+server:
+  port: 9002
