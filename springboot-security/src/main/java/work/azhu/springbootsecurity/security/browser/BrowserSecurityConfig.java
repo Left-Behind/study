@@ -11,6 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import work.azhu.springbootsecurity.handler.MyAuthenticationFailureHandler;
 import work.azhu.springbootsecurity.handler.MyAuthenticationSucessHandler;
 
+
 @Configuration
 @Slf4j
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
