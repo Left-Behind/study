@@ -22,6 +22,6 @@ public class TestController {
 
     @GetMapping("login")
     public String login() {
-        return "login";
+        return "templates/login.html";
     }
 }
