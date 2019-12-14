@@ -24,8 +24,8 @@ public class AlipayConfig {
     public final static String format = "json";
     public final static String charset = "utf-8";
     public final static String sign_type = "RSA2";
-    public static String return_payment_url;
-    public static String notify_payment_url;
+    public static String return_url;
+    public static String notify_url;
     public static String return_order_url;
     public static String alipay_public_key;
 
@@ -34,14 +34,14 @@ public class AlipayConfig {
         AlipayConfig.alipay_public_key = alipay_public_key;
     }
 
-    @Value("${return_payment_url}")
-    public void setReturn_url(String return_payment_url) {
-        AlipayConfig.return_payment_url = return_payment_url;
+    @Value("${return_url}")
+    public void setReturn_url(String return_url) {
+        AlipayConfig.return_url = return_url;
     }
 
-    @Value("${notify_payment_url}")
+    @Value("${notify_url}")
     public void setNotify_url(String notify_payment_url) {
-        AlipayConfig.notify_payment_url = notify_payment_url;
+        AlipayConfig.notify_url = notify_url;
     }
 
     @Value("${return_order_url}")
