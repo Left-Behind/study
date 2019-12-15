@@ -16,8 +16,8 @@ import work.azhu.alipay.conf.AlipayConfig;
 
 import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
-import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 @Controller
@@ -31,18 +31,14 @@ public class PaymentController {
     /**
      * 同步回调是显示给用户看的
      * @param request
-     * @param modelMap
      * @return
      */
     @RequestMapping("alipay/callback/return")
-    public String aliPayCallBackReturn(HttpServletRequest request, ModelMap modelMap){
-
-
-        String responseResult=JSON.toJSONString(modelMap);
+    public String aliPayCallBackReturn(HttpServletRequest request){
 
         // 回调请求中获取支付宝参数
         log.info("---------------打印支付宝(同步)回调参数(参数在请求头request中)-------------");
-        String sign = request.getParameter("sign");
+        /*String sign = request.getParameter("sign");
         log.info("sign: "+sign);
         String trade_no = request.getParameter("trade_no");
         log.info("trade_no: "+trade_no);
@@ -55,14 +51,27 @@ public class PaymentController {
         String subject = request.getParameter("subject");
         log.info("subject: "+subject);
         String call_back_content = request.getQueryString();
-        log.info("call_back_content: "+call_back_content);
+        log.info("call_back_content: "+call_back_content);*/
+
+        Map<String,String> params=new HashMap<String,String>();
+        Map<String,String[]> requesetParams=request.getParameterMap();
+        for(Iterator<String> iter = requesetParams.keySet().iterator(); iter.hasNext();){
+            String name = ((String) iter.next());
+            String[] values = ((String[]) requesetParams.get(name));
+            String valueStr="";
+            for(int i=0;i<values.length;i++){
+                valueStr=(i==values.length-1)?valueStr+values[i]:valueStr;
+            }
+            params.put(name,valueStr);
+        }
         // 通过支付宝的paramsMap进行签名验证，2.0版本的接口将paramsMap参数去掉了，导致同步请求没法验签
-        if(StringUtils.isNotBlank(sign)){
+        if(/*StringUtils.isNotBlank(sign)*/true){
             // 验签成功
             // 更新用户的支付状态
             System.out.println("同步回调成功");
         }
-
+        log.info("####支付宝同步回调alipay/callback/notify 参数返回,params"+params);
+        log.info(JSON.toJSONString(params));
         return "finish";
     }
 
@@ -73,34 +82,35 @@ public class PaymentController {
      * @return
      */
     @RequestMapping("alipay/callback/notify")
+    @ResponseBody
     public String aliPayCallBackNotify(HttpServletRequest request, ModelMap modelMap){
 
-        String responseResult=JSON.toJSONString(modelMap);
 
         // 回调请求中获取支付宝参数
         log.info("---------------打印支付宝(异步)回调参数(参数在请求头request中)-------------");
-        String sign = request.getParameter("sign");
-        log.info("sign: "+sign);
-        String trade_no = request.getParameter("trade_no");
-        log.info("trade_no: "+trade_no);
-        String out_trade_no = request.getParameter("out_trade_no");
-        log.info("out_trade_no: "+out_trade_no);
-        String trade_status = request.getParameter("trade_status");
-        log.info("trade_status: "+trade_status);
-        String total_amount = request.getParameter("total_amount");
-        log.info("total_amount: "+total_amount);
-        String subject = request.getParameter("subject");
-        log.info("subject: "+subject);
-        String call_back_content = request.getQueryString();
-        log.info("call_back_content: "+call_back_content);
-        // 通过支付宝的paramsMap进行签名验证，2.0版本的接口将paramsMap参数去掉了，导致同步请求没法验签
-        if(StringUtils.isNotBlank(sign)){
-            // 验签成功
-            // 更新用户的支付状态
-            System.out.println("异步回调成功");
+        Map<String,String> params=new HashMap<String,String>();
+        Map<String,String[]> requesetParams=request.getParameterMap();
+        for(Iterator<String> iter = requesetParams.keySet().iterator(); iter.hasNext();){
+            String name = ((String) iter.next());
+            String[] values = ((String[]) requesetParams.get(name));
+            String valueStr="";
+            for(int i=0;i<values.length;i++){
+                valueStr=(i==values.length-1)?valueStr+values[i]:valueStr;
+            }
+            params.put(name,valueStr);
         }
 
-        return "finish";
+        log.info("####支付宝异步回调alipay/callback/notify 参数返回,params"+params);
+        log.info(JSON.toJSONString(params));
+        //通过当前时间戳的奇偶性,回传支付宝success或者fail,异步回调是否为重复回调
+        if(System.currentTimeMillis()%2==0){
+            log.info("回调接受成功");
+            return "success";
+        }else{
+            log.info("回调接受失败,注意是否还有二次回调");
+            return "fail";
+        }
+
     }
 
 
@@ -116,8 +126,9 @@ public class PaymentController {
 
         // 回调函数
         alipayRequest.setReturnUrl(AlipayConfig.return_url);
+        log.info("同步回调地址: "+AlipayConfig.return_url);
         alipayRequest.setNotifyUrl(AlipayConfig.notify_url);
-
+        log.info("异步回调地址: "+AlipayConfig.notify_url);
         Map<String,Object> map = new HashMap<>();
         map.put("out_trade_no",outTradeNo);
         map.put("product_code","FAST_INSTANT_TRADE_PAY");
