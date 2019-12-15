@@ -35,6 +35,9 @@ public class PaymentController {
      */
     @RequestMapping("alipay/callback/return")
     public String aliPayCallBackReturn(HttpServletRequest request){
+        //换行日志打印
+        System.out.println("");
+        System.out.println("@RequestMapping(\"alipay/callback/return\")");
 
         // 回调请求中获取支付宝参数
         log.info("---------------打印支付宝(同步)回调参数(参数在请求头request中)-------------");
@@ -84,7 +87,9 @@ public class PaymentController {
     @RequestMapping("alipay/callback/notify")
     @ResponseBody
     public String aliPayCallBackNotify(HttpServletRequest request, ModelMap modelMap){
-
+        //换行日志打印
+        System.out.println("");
+        System.out.println("@RequestMapping(\"alipay/callback/notify\")");
 
         // 回调请求中获取支付宝参数
         log.info("---------------打印支付宝(异步)回调参数(参数在请求头request中)-------------");
@@ -104,10 +109,10 @@ public class PaymentController {
         log.info(JSON.toJSONString(params));
         //通过当前时间戳的奇偶性,回传支付宝success或者fail,异步回调是否为重复回调
         if(System.currentTimeMillis()%2==0){
-            log.info("回调接受成功");
+            log.info("回调返回成功");
             return "success";
         }else{
-            log.info("回调接受失败,注意是否还有二次回调");
+            log.info("回调返回失败,注意是否还有下一次异步回调");
             return "fail";
         }
 
