@@ -2,6 +2,7 @@ package work.azhu.alipay.controller;
 
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.request.AlipayTradePagePayRequest;
@@ -73,8 +74,10 @@ public class PaymentController {
             // 更新用户的支付状态
             System.out.println("同步回调成功");
         }
-        log.info("####支付宝同步回调alipay/callback/notify 参数返回,params"+params);
+        log.info("####支付宝同步回调alipay/callback/notify 参数返回,params");
         log.info(JSON.toJSONString(params));
+        System.out.println(JSON.toJSONString(params, SerializerFeature.PrettyFormat, SerializerFeature.WriteMapNullValue,
+                SerializerFeature.WriteDateUseDateFormat));
         return "finish";
     }
 
@@ -85,7 +88,7 @@ public class PaymentController {
      * @return
      */
     @RequestMapping("alipay/callback/notify")
-    @ResponseBody
+    @ResponseBody //这里要返回给支付宝回调接口,实现是否继续回调
     public String aliPayCallBackNotify(HttpServletRequest request, ModelMap modelMap){
         //换行日志打印
         System.out.println("");
@@ -105,8 +108,10 @@ public class PaymentController {
             params.put(name,valueStr);
         }
 
-        log.info("####支付宝异步回调alipay/callback/notify 参数返回,params"+params);
+        log.info("####支付宝异步回调alipay/callback/notify 参数返回,params");
         log.info(JSON.toJSONString(params));
+        System.out.println(JSON.toJSONString(params, SerializerFeature.PrettyFormat, SerializerFeature.WriteMapNullValue,
+                SerializerFeature.WriteDateUseDateFormat));
         //通过当前时间戳的奇偶性,回传支付宝success或者fail,异步回调是否为重复回调
         if(System.currentTimeMillis()%2==0){
             log.info("回调返回成功");
