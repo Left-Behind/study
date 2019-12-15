@@ -40,7 +40,7 @@ public class AlipayConfig {
     }
 
     @Value("${notify_url}")
-    public void setNotify_url(String notify_payment_url) {
+    public void setNotify_url(String notify_url) {
         AlipayConfig.notify_url = notify_url;
     }
 
