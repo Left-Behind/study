@@ -1,0 +1,10 @@
+spring:
+  resources:
+    static-locations: classpath:/
+  mvc:
+    static-path-pattern: /**
+  thymeleaf:
+    prefix: classpath:/templates/
+server:
+  port: 8765
+
