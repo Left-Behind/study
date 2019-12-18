@@ -1,6 +1,8 @@
 package work.azhu.auth.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -40,6 +42,36 @@ public class QQController {
         return "redirect:" + url;
     }
 
+    /**
+     * {
+     "ret":0,
+     "msg":"",
+     "is_lost":0,
+     "gender":"男",
+     "is_yellow_vip":"0",
+     "city":"丽水",
+     "year":"1996",
+     "level":"0",
+     "figureurl_2":"http://qzapp.qlogo.cn/qzapp/101774548/A0CD1B42B38BB4B455C6AFC2119201B8/100",
+     "figureurl_1":"http://qzapp.qlogo.cn/qzapp/101774548/A0CD1B42B38BB4B455C6AFC2119201B8/50",
+     "gender_type":1,
+     "is_yellow_year_vip":"0",
+     "province":"浙江",
+     "constellation":"",
+     "figureurl":"http://qzapp.qlogo.cn/qzapp/101774548/A0CD1B42B38BB4B455C6AFC2119201B8/30",
+     "figureurl_type":"1",
+     "figureurl_qq":"http://thirdqq.qlogo.cn/g?b=oidb&k=V5YKmcO6loiaAgGrOjXRl7A&s=640&t=1557093782",
+     "nickname":"阿朱",
+     "yellow_vip_level":"0",
+     "figureurl_qq_1":"http://thirdqq.qlogo.cn/g?b=oidb&k=V5YKmcO6loiaAgGrOjXRl7A&s=40&t=1557093782",
+     "vip":"0",
+     "figureurl_qq_2":"http://thirdqq.qlogo.cn/g?b=oidb&k=V5YKmcO6loiaAgGrOjXRl7A&s=100&t=1557093782"
+     }
+     * @param request
+     * @param model
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/qq/callback")
     public String qqcallback(HttpServletRequest request,Model model) throws Exception {
         //qq返回的信息：http://graph.qq.com/demo/index.jsp?code=9A5F************************06AF&state=test
@@ -65,7 +97,8 @@ public class QQController {
                 "&openid=" + openid;
 
         JSONObject jsonObject = QQHttpClient.getUserInfo(url);
-
+        System.out.println(JSON.toJSONString(jsonObject, SerializerFeature.PrettyFormat, SerializerFeature.WriteMapNullValue,
+                SerializerFeature.WriteDateUseDateFormat));
         model.addAttribute("openid",openid);  //openid,用来唯一标识qq用户
         model.addAttribute("nickname",(String)jsonObject.get("nickname")); //QQ名
         model.addAttribute("figureurl_qq_2",(String)jsonObject.get("figureurl_qq_2")); //大小为100*100像素的QQ头像URL
@@ -73,4 +106,5 @@ public class QQController {
         //跳转登录成功页
         return "success";
     }
+
 }
