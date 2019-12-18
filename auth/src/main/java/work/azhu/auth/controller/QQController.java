@@ -33,12 +33,10 @@ public class QQController {
      */
     @RequestMapping("/qq/toLogin")
     public String qq(){
-        //QQ互联中的回调地址
-        String backUrl = QQConfig.CALLBACK_URL;
         //Step1：获取Authorization Code
         String url = "https://graph.qq.com/oauth2.0/authorize?response_type=code"+
                 "&client_id=" + QQConfig.APPID +
-                "&redirect_uri=" + URLEncoder.encode(backUrl);
+                "&redirect_uri=" + URLEncoder.encode(QQConfig.CALLBACK_URL);//这里需要地址加密
         return "redirect:" + url;
     }
 

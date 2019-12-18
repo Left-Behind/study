@@ -1,6 +1,8 @@
 package work.azhu.auth.util;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -32,6 +34,7 @@ public class QQHttpClient {
 
         if(entity != null){
             String result = EntityUtils.toString(entity,"UTF-8");
+            System.out.println("QQ返回的HttpEntity: "+result);
             if(result.indexOf("access_token") >= 0){
                 String[] array = result.split("&");
                 for (String str : array){
