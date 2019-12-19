@@ -74,7 +74,6 @@ public class QQController {
     public String qqcallback(HttpServletRequest request,Model model) throws Exception {
         //qq返回的信息：http://graph.qq.com/demo/index.jsp?code=9A5F************************06AF&state=test
         String code = request.getParameter("code");
-        String state = request.getParameter("state");
         //Step2：通过Authorization Code获取Access Token
         String backUrl = QQConfig.CALLBACK_URL;
         String url = "https://graph.qq.com/oauth2.0/token?grant_type=authorization_code"+

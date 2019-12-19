@@ -44,14 +44,14 @@ public class HttpClientUtils {
 
     /**
      * 将字符串转换成map
-     * @param responseEntity
+     * @param entity
      * @return
      */
-    public static Map<String,String> getMap(String responseEntity) {
+    public static Map<String,String> getMap(String entity) {
 
         Map<String, String> map = new HashMap<>();
         // 以&来解析字符串
-        String[] result = responseEntity.split("\\&");
+        String[] result = entity.split("\\&");
 
         for (String str : result) {
             // 以=来解析字符串

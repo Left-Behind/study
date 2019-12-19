@@ -11,6 +11,8 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author Azhu
@@ -89,14 +91,36 @@ public class QQHttpClient {
         HttpResponse response = client.execute(httpGet);
         HttpEntity entity = response.getEntity();
 
-
         if(entity != null){
             String result = EntityUtils.toString(entity,"UTF-8");
             jsonObject = JSONObject.parseObject(result);
         }
-
         httpGet.releaseConnection();
-
         return jsonObject;
+    }
+
+
+    /**
+     * 将字符串转换成map
+     * @param entity
+     * @return
+     */
+    public static Map<String,String> getMap(String entity) {
+
+        Map<String, String> map = new HashMap<>();
+        // 以&来解析字符串
+        String[] result = entity.split("\\&");
+
+        for (String str : result) {
+            // 以=来解析字符串
+            String[] split = str.split("=");
+            // 将字符串存入map中
+            if (split.length == 1) {
+                map.put(split[0], null);
+            } else {
+                map.put(split[0], split[1]);
+            }
+        }
+        return map;
     }
 }
