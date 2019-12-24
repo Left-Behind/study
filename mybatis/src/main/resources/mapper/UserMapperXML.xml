@@ -21,4 +21,17 @@
     <delete id="deleteUserInfoById" parameterType="Integer">
         delete from user where userId= #{id}
     </delete>
+
+    <insert id="insertBatchUserInfoList">
+        insert into user
+        (userName,password,avatarUrl,email)
+        values
+        <foreach collection ="list" item="item" separator =",">
+            (#{item.userName}, #{item.password}, #{item.avatarUrl},#{item.email})
+        </foreach >
+    </insert>
+
+    <select id="queryUserMap" parameterType="java.lang.Integer" resultType="java.util.Map">
+        SELECT * FROM user WHERE userId = #{userId};
+    </select>
 </mapper>

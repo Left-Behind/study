@@ -4,6 +4,7 @@ package com.mapper;
 import com.pojo.UserInfo;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author: Azhu
@@ -23,5 +24,7 @@ public interface UserInfoMapper {
 
     List<UserInfo> queryAllUserInfoList();
 
+    Integer insertBatchUserInfoList(List<UserInfo> list);
 
+    Map queryUserMap(Integer userId);
 }
