@@ -1,0 +1,8 @@
+server:
+  port: 9004
+
+qiniu:
+  accessKey: bF0vfxQXonnvYglN87QzVklV6q73kJSfYo6MrcQ1
+  secretKey: CzkMpfFNMRM7gNVXlcv6JtS8qtkSHkGi-FsYr9hi
+  bucket: im-wechat
+  path: www.image.azhu.work
