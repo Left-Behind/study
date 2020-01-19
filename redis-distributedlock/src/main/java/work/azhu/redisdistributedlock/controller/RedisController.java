@@ -17,12 +17,14 @@ import javax.annotation.Resource;
  * @Date 2020/1/17 13:59
  * @Description
  */
-@Api(tags = "redis分布式锁测试")
+@Api(tags = "redis测试")
 @Controller
 public class RedisController {
 
     @Autowired
     public RedisTemplate redisTemplate;
+
+
 
     @ApiOperation(value = "redis的set操作")
     @RequestMapping(value = "/redisSet",method = RequestMethod.POST)
