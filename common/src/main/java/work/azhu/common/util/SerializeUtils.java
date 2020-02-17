@@ -1,6 +1,8 @@
 package work.azhu.common.util;
 
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +14,7 @@ import java.util.List;
  * @date ：Created in 2020/2/17 9:38
  * @description: 序列化工具类
  */
+@Slf4j
 public class SerializeUtils {
 
     /**
@@ -92,8 +95,7 @@ public class SerializeUtils {
 
     /**
      * 反序列化 list 集合
-     *
-     * @param lb
+     * @param bytes
      * @return
      */
     public static List<?> unserializeList(byte[] bytes) {
@@ -137,5 +139,9 @@ public class SerializeUtils {
                 e.printStackTrace();
             }
         }
+    }
+
+    public static void main(String[] args) {
+
     }
 }
