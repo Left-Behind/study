@@ -1,6 +1,5 @@
 package work.azhu.common.util;
 
-import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 
@@ -12,13 +11,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 身份证工具类
  *
  * @author Azhu
  * @version 1.0
+ * @date ：Created in 2020/2/17 9:38
+ * @description：身份证工具类
  */
 @Slf4j
-public class IdcardUtils extends StringUtils {
+public class IdCardUtils extends StringUtils {
 
     /** 中国公民身份证号码最小长度。 */
     public static final int CHINA_ID_MIN_LENGTH = 15;
