@@ -27,7 +27,6 @@ public class Producer {
         Message message = new Message();
         message.setId("KFK_"+System.currentTimeMillis());
         message.setMsg(UUID.randomUUID().toString());
-        message.setSendTime(new Date());
         kafkaTemplate.send("test", gson.toJson(message));
     }
 

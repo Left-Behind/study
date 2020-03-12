@@ -8,60 +8,64 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alipay" />
+        <module name="auth" />
+        <module name="common" />
+        <module name="diyspringmvc" />
         <module name="JavaSE" />
+        <module name="mybatis" />
         <module name="oauth2-sso-auth-server" />
         <module name="oauth2-sso-client-member" />
         <module name="oauth2-sso-client-order" />
         <module name="qq" />
         <module name="redis" />
+        <module name="redis-distributedlock" />
         <module name="springboot-aop" />
         <module name="springboot-datasource" />
         <module name="springboot-datasource-aop" />
         <module name="springboot-kafka-consumer" />
         <module name="springboot-kafka-producer" />
         <module name="springboot-mail" />
+        <module name="springboot-mybatis" />
         <module name="springboot-netty" />
+        <module name="springboot-rocketmq" />
         <module name="springboot-security" />
         <module name="springboot-session-redis" />
         <module name="springcloud-consumer" />
         <module name="springcloud-eureka" />
         <module name="springcloud-provider" />
+        <module name="zookeeper-distributedlock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="alipay" target="1.8" />
-      <module name="JavaSE" target="1.8" />
       <module name="oauth2-sso-server" target="6" />
       <module name="oauth2ssoclientmember" target="1.5" />
       <module name="oauth2ssoclientorder" target="1.5" />
       <module name="oauth2ssoserver" target="8" />
-      <module name="qq" target="1.8" />
-      <module name="redis" target="1.8" />
-      <module name="springboot-aop" target="1.8" />
-      <module name="springboot-datasource" target="1.8" />
-      <module name="springboot-datasource-aop" target="1.8" />
-      <module name="springboot-kafka-consumer" target="1.8" />
-      <module name="springboot-kafka-producer" target="1.8" />
-      <module name="springboot-mail" target="1.8" />
-      <module name="springboot-netty" target="1.8" />
-      <module name="springboot-security" target="1.8" />
-      <module name="springboot-session-redis" target="1.8" />
-      <module name="springcloud-consumer" target="1.8" />
-      <module name="springcloud-eureka" target="1.8" />
-      <module name="springcloud-provider" target="1.8" />
-      <module name="study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alipay" options="-parameters" />
+      <module name="auth" options="-parameters" />
+      <module name="common" options="-parameters" />
       <module name="oauth2-sso-auth-server" options="-parameters" />
       <module name="oauth2-sso-client-member" options="-parameters" />
       <module name="oauth2-sso-client-order" options="-parameters" />
       <module name="qq" options="-parameters" />
-      <module name="springboot-datasource-aop" options="" />
+      <module name="redis-distributedlock" options="-parameters" />
+      <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-datasource-aop" options="-parameters" />
+      <module name="springboot-kafka-consumer" options="-parameters" />
+      <module name="springboot-kafka-producer" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-netty" options="-parameters" />
+      <module name="springboot-rocketmq" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
+      <module name="springboot-session-redis" options="-parameters" />
       <module name="springcloud-consumer" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-provider" options="-parameters" />
+      <module name="zookeeper-distributedlock" options="-parameters" />
     </option>
   </component>
 </project>

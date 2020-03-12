@@ -4,31 +4,51 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list id="067ecb48-526c-4edb-a315-186b45289c30" name="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;" comment="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;&#10;&#10;This reverts commit 6492adeb" />
     <list default="true" id="d0249bba-cbb4-4938-ab02-b92ec353c38a" name="Default" comment="QQ联登成功,了解了http和https的区别，想要把自己的阿里云域名www.azhu.work使用https访问还得需要ssl证书">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alipay_sdk_alipay_sdk_java_3_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_20.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/controller/PaymentController.java" afterPath="$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/controller/PaymentController.java" />
-      <change beforePath="$PROJECT_DIR$/alipay/src/main/resources/alipay.properties" afterPath="$PROJECT_DIR$/alipay/src/main/resources/alipay.properties" />
-      <change beforePath="$PROJECT_DIR$/alipay/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/alipay/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/redis/redis.iml" afterPath="$PROJECT_DIR$/redis/redis.iml" />
-      <change beforePath="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/UserDetailService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/BrowserSecurityController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/springboot-security/src/main/resources/rebel-remote.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/springboot-security/src/main/resources/rebel.xml" afterPath="$PROJECT_DIR$/springboot-security/src/main/resources/rebel.xml" />
-      <change beforePath="$PROJECT_DIR$/study.iml" afterPath="$PROJECT_DIR$/study.iml" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/Lock/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/ce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/collection/hashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/concurrent/DelayedQueueDemo/DelayOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/concurrent/DelayedQueueDemo/ItemDelayed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaSE/src/main/java/datatype/float_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diy-springmvc/diyspringmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/ScanExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/util/SerializeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-aop/src/main/java/com/azhu/springbootaop/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-kafka-consumer/src/main/java/work/azhu/springbootkafkaconsumer/consumer/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_AsyncSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_OneWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_SyncSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/producer/RocketMqProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-distributedlock/src/main/java/work/azhu/zookeeperdistributedlock/zookeeper/ZkDistributedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-distributedlock/src/main/java/work/azhu/zookeeperdistributedlock/zookeeper/ZkLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-distributedlock/src/main/java/work/azhu/zookeeperdistributedlock/zookeeper/ZkLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/IO/IOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/main/java/IO/IOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/Lambda/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/main/java/Lambda/For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSE/src/main/java/timeformat/DateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSE/src/main/java/timeformat/DateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/test/testUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/testUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/src/main/java/com/azhu/springbootaop/AfterStartRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/src/main/java/com/azhu/springbootaop/AfterStartRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka-consumer/src/main/java/work/azhu/springbootkafkaconsumer/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka-consumer/src/main/java/work/azhu/springbootkafkaconsumer/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka-producer/src/main/java/work/azhu/springbootkafkaproducer/producer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka-producer/src/main/java/work/azhu/springbootkafkaproducer/producer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study.iml" afterDir="false" />
     </list>
+    <list id="067ecb48-526c-4edb-a315-186b45289c30" name="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;" comment="Revert &quot;添加了一个QQ互联的小demo,阿里云域名还没通过无法测试&quot;&#10;&#10;This reverts commit 6492adeb" />
     <ignored path="$PROJECT_DIR$/redis/target/" />
     <ignored path="$PROJECT_DIR$/oauth2-sso-client-member/target/" />
     <ignored path="$PROJECT_DIR$/oauth2-sso-client-order/target/" />
@@ -56,8 +76,15 @@
     <ignored path="$PROJECT_DIR$/springboot-mail/target/" />
     <ignored path="$PROJECT_DIR$/springboot-netty/target/" />
     <ignored path="$PROJECT_DIR$/alipay/target/" />
+    <ignored path="$PROJECT_DIR$/auth/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-distributedlock/target/" />
+    <ignored path="$PROJECT_DIR$/diy-springmvc/target/" />
+    <ignored path="$PROJECT_DIR$/redis-distributedlock/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rocketmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,108 +112,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paymentindex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/templates/paymentindex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finish.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/templates/finish.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-624">
-              <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+            <state relative-caret-position="54">
+              <caret line="285" column="29" selection-start-line="285" selection-start-column="29" selection-end-line="285" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+                <element signature="e#24329#24330#0" expanded="true" />
+                <element signature="e#24394#24395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alipay.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/alipay.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/Lock/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/BrowserSecurityConfig.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/Slacker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/Hungry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAuthenticationFailureHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationFailureHandler.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/DoubleCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="114">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/StaticInnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAuthenticationSucessHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationSucessHandler.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/SingletonEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/datatype/BigDecimal_Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="53">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-404">
+              <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -197,82 +222,76 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>render</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qq/src/main/java/com/azhu/qq/controller/QQController.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/MD5/md5.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/数据类型/BigDecimal_Demo.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/commons/DynamicDataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/model/UserInfo.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/resources/mapper/UserMapperXML.xml" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/java/com/azhu/springbootdatasource/SpringbootDatasourceApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/DataSourceType.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/DruidDataSourceProperties.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/DataSourceContextHolder.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/DynamicPlugin.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/test/java/com/azhu/springbootdatasource/SpringbootDatasourceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/service/lmp/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/mapper/UserInfoMapper.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/SpringbootDatasourceAopApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/MyAbstractRoutingDataSource.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/DataSourceConfiguration.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/test/java/com/azhu/springbootdatasourceaop/SpringbootDatasourceAopApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop/common/datasource/DataSourceAopInService.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/List_Remove_Demo.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/concurrent/Dead_WaitDemo.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/concurrent/DeadDemo.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/java8/StreamApi.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/java8/StreamTest.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterface.java" />
-        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/JavaSE/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-distributedlock/src/main/java/work/azhu/zookeeperdistributedlock/zookeeper/ZkLockTest.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/timeformat/DateDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationSucessHandler.java" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationFailureHandler.java" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/UserDetailService.java" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/BrowserSecurityController.java" />
+        <option value="$PROJECT_DIR$/diy-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/azhu/springbootaop/AfterStartRunner.java" />
+        <option value="$PROJECT_DIR$/springboot-aop/src/main/java/com/azhu/springbootaop/TestController.java" />
+        <option value="$PROJECT_DIR$/redis-distributedlock/src/main/java/work/azhu/redisdistributedlock/conf/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/concurrent/DelayedQueueDemo/ItemDelayed.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/concurrent/DelayedQueueDemo/DelayOrder.java" />
         <option value="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
-        <option value="$PROJECT_DIR$/alipay/src/test/java/work/azhu/alipay/AlipayApplicationTests.java" />
-        <option value="$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/conf/AlipayConfig.java" />
-        <option value="$PROJECT_DIR$/alipay/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/alipay/src/main/resources/templates/paymentindex.html" />
-        <option value="$PROJECT_DIR$/alipay/pom.xml" />
-        <option value="$PROJECT_DIR$/alipay/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/alipay/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/alipay/src/main/resources/alipay.properties" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/java/handler/MyAuthenticationSucessHandler.java" />
-        <option value="$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka-consumer/src/main/java/work/azhu/springbootkafkaconsumer/consumer/Message.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka-consumer/src/main/java/work/azhu/springbootkafkaconsumer/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/test/java/work/azhu/common/CommonApplicationTests.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/ParentClass.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/ce.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/DemoClass.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/datatype/八大基本类型.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lambda/For.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/ScanExample.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/datatype/float_demo.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/IO/IOServer.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/work/azhu/common/util/IdcardUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/work/azhu/common/util/IdCardUtils.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/com/azhu/jedis/util/SerializeUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/work/azhu/common/util/SerializeUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/work/azhu/common/test_dependent_package/Parent.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/work/azhu/common/test_dependent_package/Son.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/work/azhu/common/test_package/SerializeTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/testUserInfo.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/model/Message.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/Constant.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_OneWag.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_SyncSend.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_OneWay.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/test/java/work/azhu/springbootrocketmq/SpringbootRocketmqApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_AsyncSend.java" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/producer/RocketMqProducer.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Consumer.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Producer.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka-producer/src/main/java/work/azhu/springbootkafkaproducer/producer/Producer.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/collection/hashmap.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/Lock/Test.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/Slacker.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/Hungry.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/DoubleCheck.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/StaticInnerClass.java" />
+        <option value="$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/SingletonEnum.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -291,28 +310,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="width" value="1926" />
-    <option name="height" value="1047" />
+    <option name="x" value="340" />
+    <option name="y" value="51" />
+    <option name="width" value="1545" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,25 +334,97 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datatype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="for23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="for23" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -349,36 +432,87 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootrocketmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootrocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootrocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootrocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootrocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -386,32 +520,14 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -419,92 +535,37 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootsecurity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootsecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootsecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootsecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootsecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="azhu" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootrocketmq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -524,28 +585,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582335749056" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-datasource-aop/src/main/java/com/azhu/springbootdatasourceaop" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/JavaSE/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../svn" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15372169" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/JavaSE/src/main/java" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Azhu\Documents\study\study\alipay\src" />
-      <recent name="D:\study\springcloud\src\main\java\com\azhu\eureka" />
-      <recent name="D:\study" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="work.azhu.springbootsecurity" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="work.azhu.alipay.controller" />
-      <recent name="work.azhu.alipay.conf" />
-      <recent name="main.java.MD5" />
-      <recent name="com.azhu.springcloudeureka.web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Azhu\Documents\study\study\springboot-security\src\main\java" />
@@ -554,135 +608,20 @@
       <recent name="C:\Users\Azhu\Documents\study\study\alipay\src\main\resources" />
       <recent name="C:\Users\123456\Documents\study\springboot-datasource-aop\src\main\java\com\azhu\springbootdatasourceaop" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/BrowserSecurityConfig.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/TestController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/resources/application.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/resources/templates/login.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/.mvn/wrapper/MavenWrapperDownloader.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/.mvn/wrapper/maven-wrapper.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/.mvn/wrapper/maven-wrapper.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/mvnw</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/mvnw.cmd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/src/main/java/work/azhu/springbootsecurityjwt/SpringbootSecurityJwtApplication.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/src/main/resources/application.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security-jwt/src/test/java/work/azhu/springbootsecurityjwt/SpringbootSecurityJwtApplicationTests.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/validate/code/ImageCode.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/validate/code/ValidateCodeException.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/validate/code/ValidateCodeFilter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/ValidateController.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/springboot-security/src/main/resources/css/login.css</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="work.azhu.springbootrocketmq.rocketmq.consumer" />
+      <recent name="com.azhu.jedis.util" />
+      <recent name="work.azhu.springbootkafkaconsumer.consumer" />
+      <recent name="work.azhu.alipay.controller" />
+      <recent name="work.azhu.alipay.conf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Azhu\Documents\Project\study\springboot-rocketmq\src\main\resources" />
+      <recent name="C:\Users\Azhu\Documents\Project\study\mybatis\src\main\java\com" />
+      <recent name="C:\Users\Azhu\Documents\study\study\alipay\src" />
+      <recent name="D:\study\springcloud\src\main\java\com\azhu\eureka" />
+      <recent name="D:\study" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -696,308 +635,285 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlipayApplication">
-    <configuration name="AlipayApplication" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="JUnit.hashmap.tset">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rocketmq.Consumer" />
+      <module name="JavaSE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work.azhu.alipay.*" />
+          <option name="PATTERN" value="rocketmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="work.azhu.alipay.AlipayApplication" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alipay" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Integer_demo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="main.java.java基本类型.Integer_demo" />
+      <module name="JavaSE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.java基本类型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.java.java基本类型.Integer_demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rocketmq.Producer" />
       <module name="JavaSE" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocketmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisDemo1.T1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="SpringbootRocketmqApplicationTests.rocketMqAsyncSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rocketmq" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.azhu.jedis.*" />
+          <option name="PATTERN" value="work.azhu.springbootrocketmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="redis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.azhu.jedis" />
-      <option name="MAIN_CLASS_NAME" value="com.azhu.jedis.JedisDemo1" />
-      <option name="METHOD_NAME" value="T1" />
+      <option name="PACKAGE_NAME" value="work.azhu.springbootrocketmq" />
+      <option name="MAIN_CLASS_NAME" value="work.azhu.springbootrocketmq.SpringbootRocketmqApplicationTests" />
+      <option name="METHOD_NAME" value="rocketMqAsyncSend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="SpringbootRocketmqApplicationTests.rocketMqSyncSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rocketmq" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.azhu.springbootdatasourceaop.*" />
+          <option name="PATTERN" value="work.azhu.springbootrocketmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="springboot-datasource-aop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.azhu.springbootdatasourceaop" />
-      <option name="MAIN_CLASS_NAME" value="com.azhu.springbootdatasourceaop.SpringbootDatasourceAopApplicationTests" />
-      <option name="METHOD_NAME" value="queryAllUserInfoList" />
+      <option name="PACKAGE_NAME" value="work.azhu.springbootrocketmq" />
+      <option name="MAIN_CLASS_NAME" value="work.azhu.springbootrocketmq.SpringbootRocketmqApplicationTests" />
+      <option name="METHOD_NAME" value="rocketMqSyncSend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringbootDatasourceApplicationTests.queryAllUserInfoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.azhu.springbootdatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-datasource" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.azhu.springbootdatasource" />
-      <option name="MAIN_CLASS_NAME" value="com.azhu.springbootdatasource.SpringbootDatasourceApplicationTests" />
-      <option name="METHOD_NAME" value="queryAllUserInfoList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="md5_demo.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="hashmap.tset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSE" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.MD5.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="JavaSE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.java.MD5" />
-      <option name="MAIN_CLASS_NAME" value="main.java.MD5.md5_demo" />
-      <option name="METHOD_NAME" value="Test1" />
+      <option name="PACKAGE_NAME" value="collection" />
+      <option name="MAIN_CLASS_NAME" value="collection.hashmap" />
+      <option name="METHOD_NAME" value="tset" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlipayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alipay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.alipay.AlipayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Oauth2SsoAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.sso.Oauth2SsoAuthServerApplication" />
       <module name="oauth2-sso-auth-server" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.sso.Oauth2SsoAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Oauth2SsoClientMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.Oauth2SsoClientMemberApplication" />
       <module name="oauth2-sso-client-member" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.Oauth2SsoClientMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Oauth2SsoClientOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.Oauth2SsoClientOrderApplication" />
       <module name="oauth2-sso-client-order" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cjs.example.Oauth2SsoClientOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="QqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.qq.QqApplication" />
       <module name="qq" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.qq.QqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisDistributedlockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-distributedlock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.redisdistributedlock.RedisDistributedlockApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootaop.SpringbootAopApplication" />
       <module name="springboot-aop" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootaop.SpringbootAopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootDatasourceAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootdatasourceaop.SpringbootDatasourceAopApplication" />
       <module name="springboot-datasource-aop" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootdatasourceaop.SpringbootDatasourceAopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootDatasourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootdatasource.SpringbootDatasourceApplication" />
       <module name="springboot-datasource" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootdatasource.SpringbootDatasourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootKafkaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootkafkaconsumer.SpringbootKafkaConsumerApplication" />
       <module name="springboot-kafka-consumer" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootkafkaconsumer.SpringbootKafkaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootKafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootkafkaproducer.SpringbootKafkaProducerApplication" />
       <module name="springboot-kafka-producer" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootkafkaproducer.SpringbootKafkaProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootMailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootmail.SpringbootMailApplication" />
       <module name="springboot-mail" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootmail.SpringbootMailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootmybatis.SpringbootMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootNettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootnetty.SpringbootNettyApplication" />
       <module name="springboot-netty" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootnetty.SpringbootNettyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRocketmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootrocketmq.SpringbootRocketmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootsecurity.SpringbootSecurityApplication" />
       <module name="springboot-security" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.springbootsecurity.SpringbootSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringbootSessionRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootsessionredis.SpringbootSessionRedisApplication" />
       <module name="springboot-session-redis" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springbootsessionredis.SpringbootSessionRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringcloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudconsumer.SpringcloudConsumerApplication" />
       <module name="springcloud-consumer" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudconsumer.SpringcloudConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringcloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudeureka.SpringcloudEurekaApplication" />
       <module name="springcloud-eureka" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudeureka.SpringcloudEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringcloudProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudprovider.SpringcloudProviderApplication" />
       <module name="springcloud-provider" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.azhu.springcloudprovider.SpringcloudProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration name="ZookeeperDistributedlockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zookeeper-distributedlock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.azhu.zookeeperdistributedlock.ZookeeperDistributedlockApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -1005,7 +921,6 @@
       <deployment type="dockerfile">
         <settings>
           <option name="command" value="" />
-          <option name="commandLineOptions" value="" />
           <option name="containerName" value="QQ_Login" />
           <option name="entrypoint" value="" />
           <option name="imageTag" value="login_qq:1.0" />
@@ -1017,18 +932,16 @@
               </DockerPortBindingImpl>
             </list>
           </option>
+          <option name="commandLineOptions" value="" />
           <option name="sourceFilePath" value="qq/target/DockerFile" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
         </settings>
       </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="consumer" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="command" value="" />
-          <option name="commandLineOptions" value="" />
           <option name="containerName" value="springcloud-consumer" />
           <option name="entrypoint" value="" />
           <option name="imageTag" value="springcloud-consumer" />
@@ -1040,18 +953,16 @@
               </DockerPortBindingImpl>
             </list>
           </option>
+          <option name="commandLineOptions" value="" />
           <option name="sourceFilePath" value="springcloud-consumer/target/DockerFile" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
         </settings>
       </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="eureka" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="command" value="" />
-          <option name="commandLineOptions" value="" />
           <option name="containerName" value="eureka" />
           <option name="entrypoint" value="" />
           <option name="imageTag" value="eureka" />
@@ -1063,18 +974,16 @@
               </DockerPortBindingImpl>
             </list>
           </option>
+          <option name="commandLineOptions" value="" />
           <option name="sourceFilePath" value="springcloud-eureka/target/DockerFile" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
         </settings>
       </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="provider" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="command" value="" />
-          <option name="commandLineOptions" value="" />
           <option name="containerName" value="springcloud-provider" />
           <option name="entrypoint" value="" />
           <option name="imageTag" value="springcloud-provider" />
@@ -1086,56 +995,59 @@
               </DockerPortBindingImpl>
             </list>
           </option>
+          <option name="commandLineOptions" value="" />
           <option name="sourceFilePath" value="springcloud-provider/target/DockerFile" />
-          <option name="startBrowserSettings">
-            <browser url="http://127.0.0.1" />
-          </option>
         </settings>
       </deployment>
+      <method v="2" />
     </configuration>
-    <list size="26">
-      <item index="0" class="java.lang.String" itemvalue="Application.Integer_demo" />
-      <item index="1" class="java.lang.String" itemvalue="Docker.provider" />
-      <item index="2" class="java.lang.String" itemvalue="Docker.consumer" />
-      <item index="3" class="java.lang.String" itemvalue="Docker.eureka" />
-      <item index="4" class="java.lang.String" itemvalue="Docker.QQ_Login" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringcloudEurekaApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.Oauth2SsoAuthServerApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.Oauth2SsoClientOrderApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.Oauth2SsoClientMemberApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.QqApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringcloudProviderApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringcloudConsumerApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.SpringbootDatasourceApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringbootDatasourceAopApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.SpringbootKafkaProducerApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.SpringbootSecurityApplication" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.SpringbootAopApplication" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.SpringbootKafkaConsumerApplication" />
-      <item index="18" class="java.lang.String" itemvalue="Spring Boot.SpringbootSessionRedisApplication" />
-      <item index="19" class="java.lang.String" itemvalue="Spring Boot.SpringbootMailApplication" />
-      <item index="20" class="java.lang.String" itemvalue="Spring Boot.SpringbootNettyApplication" />
-      <item index="21" class="java.lang.String" itemvalue="Application.AlipayApplication" />
-      <item index="22" class="java.lang.String" itemvalue="JUnit.md5_demo.Test1" />
-      <item index="23" class="java.lang.String" itemvalue="JUnit.JedisDemo1.T1" />
-      <item index="24" class="java.lang.String" itemvalue="JUnit.SpringbootDatasourceApplicationTests.queryAllUserInfoList" />
-      <item index="25" class="java.lang.String" itemvalue="JUnit.SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" />
+    <list>
+      <item itemvalue="Application.Integer_demo" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Docker.provider" />
+      <item itemvalue="Docker.consumer" />
+      <item itemvalue="Docker.eureka" />
+      <item itemvalue="Docker.QQ_Login" />
+      <item itemvalue="JUnit.SpringbootRocketmqApplicationTests.rocketMqAsyncSend" />
+      <item itemvalue="JUnit.SpringbootRocketmqApplicationTests.rocketMqSyncSend" />
+      <item itemvalue="JUnit.hashmap.tset" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaApplication" />
+      <item itemvalue="Spring Boot.Oauth2SsoAuthServerApplication" />
+      <item itemvalue="Spring Boot.Oauth2SsoClientOrderApplication" />
+      <item itemvalue="Spring Boot.Oauth2SsoClientMemberApplication" />
+      <item itemvalue="Spring Boot.QqApplication" />
+      <item itemvalue="Spring Boot.SpringcloudProviderApplication" />
+      <item itemvalue="Spring Boot.SpringcloudConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringbootDatasourceApplication" />
+      <item itemvalue="Spring Boot.SpringbootDatasourceAopApplication" />
+      <item itemvalue="Spring Boot.SpringbootKafkaProducerApplication" />
+      <item itemvalue="Spring Boot.SpringbootSecurityApplication" />
+      <item itemvalue="Spring Boot.SpringbootAopApplication" />
+      <item itemvalue="Spring Boot.SpringbootKafkaConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringbootSessionRedisApplication" />
+      <item itemvalue="Spring Boot.SpringbootMailApplication" />
+      <item itemvalue="Spring Boot.SpringbootNettyApplication" />
+      <item itemvalue="Spring Boot.AlipayApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.ZookeeperDistributedlockApplication" />
+      <item itemvalue="Spring Boot.RedisDistributedlockApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.SpringbootMybatisApplication" />
+      <item itemvalue="Spring Boot.SpringbootRocketmqApplication" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AlipayApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringbootDatasourceApplicationTests.queryAllUserInfoList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JedisDemo1.T1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.md5_demo.Test1" />
+      <list>
+        <item itemvalue="JUnit.hashmap.tset" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="JUnit.SpringbootRocketmqApplicationTests.rocketMqAsyncSend" />
+        <item itemvalue="JUnit.SpringbootRocketmqApplicationTests.rocketMqSyncSend" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Azhu\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1172,6 +1084,33 @@
       <workItem from="1569903867804" duration="4743000" />
       <workItem from="1575988172899" duration="8332000" />
       <workItem from="1576258920069" duration="8257000" />
+      <workItem from="1579490669909" duration="2314000" />
+      <workItem from="1579579644980" duration="6013000" />
+      <workItem from="1579678083258" duration="2223000" />
+      <workItem from="1579683187725" duration="2049000" />
+      <workItem from="1580106869767" duration="1441000" />
+      <workItem from="1580189880538" duration="642000" />
+      <workItem from="1580269698100" duration="1226000" />
+      <workItem from="1580274959739" duration="234000" />
+      <workItem from="1580276168224" duration="5692000" />
+      <workItem from="1580697683299" duration="15267000" />
+      <workItem from="1580785494149" duration="1320000" />
+      <workItem from="1581043704467" duration="3437000" />
+      <workItem from="1581074088930" duration="4635000" />
+      <workItem from="1581158533372" duration="6007000" />
+      <workItem from="1581332815118" duration="2229000" />
+      <workItem from="1581347018380" duration="11052000" />
+      <workItem from="1581488203623" duration="867000" />
+      <workItem from="1581489255152" duration="142000" />
+      <workItem from="1581489451827" duration="648000" />
+      <workItem from="1581517466964" duration="5064000" />
+      <workItem from="1581592155010" duration="1433000" />
+      <workItem from="1581781522903" duration="4334000" />
+      <workItem from="1581928875266" duration="2839000" />
+      <workItem from="1581941877500" duration="9235000" />
+      <workItem from="1582028511336" duration="1448000" />
+      <workItem from="1582030357517" duration="19261000" />
+      <workItem from="1582174351226" duration="12074000" />
     </task>
     <task id="LOCAL-00001" summary="导入了一个别人的sso单点登录的小demo可以运行，注意mysql版本不低于5.6、否则sql无法写入">
       <created>1563872328974</created>
@@ -1229,43 +1168,78 @@
       <option name="project" value="LOCAL" />
       <updated>1576267401234</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":boom:添加common模块,用于各种JavaWeb的基础实现">
+      <created>1581413275909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581413275909</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":wine:八大基本数据类型对应大小及其范围">
+      <created>1581522129643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581522129643</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":wine:引入序列化SerializeUtils工具类">
+      <created>1581939476372</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581939476372</updated>
+    </task>
+    <task id="LOCAL-00012" summary=":wine:测试序列化存入Redis再取出来">
+      <created>1581942797758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581942797758</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":wine:单例模式的五种方式">
+      <created>1582291774382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582291774384</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 13m 46s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests - 2020.02.19 at 17h 31m 11s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 15m 26s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqSendOneWay - 2020.02.19 at 17h 31m 44s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqSendOneWay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 19m 38s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqSendOneWay - 2020.02.19 at 17h 35m 55s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqSendOneWay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 20m 52s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqSendOneWay - 2020.02.19 at 17h 38m 50s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqSendOneWay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 22m 14s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqSendOneWay - 2020.02.19 at 18h 57m 21s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqSendOneWay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 23m 01s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqAsyncSend - 2020.02.19 at 19h 53m 42s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqAsyncSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 25m 13s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqSendOneWay - 2020.02.19 at 19h 54m 42s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqSendOneWay" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.09.03 at 21h 29m 05s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqSyncSend - 2020.02.19 at 19h 56m 09s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqSyncSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.10.01 at 13h 00m 01s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="SpringbootRocketmqApplicationTests_rocketMqAsyncSend - 2020.02.19 at 19h 56m 49s.xml">
+      <configuration name="SpringbootRocketmqApplicationTests.rocketMqAsyncSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootDatasourceAopApplicationTests_queryAllUserInfoList - 2019.12.10 at 22h 38m 34s.xml">
-      <configuration name="SpringbootDatasourceAopApplicationTests.queryAllUserInfoList" configurationId="JUnit" />
+    <history-entry file="hashmap_tset - 2020.02.20 at 16h 05m 11s.xml">
+      <configuration name="hashmap.tset" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136067000" />
+    <option name="totallyTimeSpent" value="259193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1277,53 +1251,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="0" width="1926" height="1047" extended-state="0" />
+    <frame x="340" y="51" width="1545" height="910" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3110102" sideWeight="0.40353698" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21757771" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38418707" sideWeight="0.5623667" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19989282" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24200426" sideWeight="0.5017065" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32323232" sideWeight="0.596463" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971624" sideWeight="0.49840087" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17620651" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28717366" sideWeight="0.5479744" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25669882" sideWeight="0.48495576" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25669882" sideWeight="0.5150443" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15434083" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Redis Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.49877" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="zoolytic" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20049201" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="ZooKeeper" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29321662" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" x="723" y="164" width="474" height="711" id="Project" order="0" sideWeight="0.48495576" visible="true" weight="0.22895622" />
+      <window_info id="Designer" order="1" />
+      <window_info id="JRebel" order="2" sideWeight="0.5150443" side_tool="true" weight="0.25669882" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="MyBatis Log" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.54744136" visible="true" weight="0.39760637" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.6243301" weight="0.5634744" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.23942094" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3295838" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" sideWeight="0.5607676" weight="0.35" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.44801715" side_tool="true" weight="0.21603563" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.5519829" weight="0.3159722" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.3756699" side_tool="true" weight="0.3564815" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.24276169" />
+      <window_info anchor="bottom" id="Database Console" order="18" sideWeight="0.49877" weight="0.3295838" />
+      <window_info anchor="bottom" id="Problems" order="19" />
+      <window_info anchor="bottom" id="Inspection Results" order="20" weight="0.32962137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Redis Explorer" order="4" />
+      <window_info anchor="right" id="Redis Servers" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.21757771" />
+      <window_info anchor="right" id="Database" order="9" weight="0.19989282" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="right" id="Maven" order="13" weight="0.15434083" />
+      <window_info anchor="right" id="zoolytic" order="14" weight="0.20049201" />
+      <window_info anchor="right" id="Structure" order="15" sideWeight="0.5017065" weight="0.2457356" />
+      <window_info anchor="right" id="Word Book" order="16" side_tool="true" />
+      <window_info anchor="right" auto_hide="true" id="JRebel Setup Guide" order="17" show_stripe_button="false" type="SLIDING" weight="0.32782516" />
+      <window_info anchor="right" id="ZooKeeper" order="18" visible="true" weight="0.29225588" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1364,9 +1342,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -1380,7 +1369,12 @@
     <MESSAGE value=":art:Ubuntu下测试提交" />
     <MESSAGE value=":boom:添加alipay模块,第三方登陆模块。测试使用的是尚硅谷的注册的appId和密钥,能够成功支付，回调地址存在问题,而且和公司的支付流程不太一样，接下来自己申请沙箱环境测试" />
     <MESSAGE value=":beer:导入类小问题" />
-    <option name="LAST_COMMIT_MESSAGE" value=":beer:导入类小问题" />
+    <MESSAGE value=":boom:添加common模块,用于各种JavaWeb的基础实现" />
+    <MESSAGE value=":wine:八大基本数据类型对应大小及其范围" />
+    <MESSAGE value=":wine:引入序列化SerializeUtils工具类" />
+    <MESSAGE value=":wine:测试序列化存入Redis再取出来" />
+    <MESSAGE value=":wine:单例模式的五种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value=":wine:单例模式的五种方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1392,7 +1386,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1401,7 +1394,7 @@
     </watches-manager>
   </component>
   <component name="ZooKeeperConfig">
-    <option name="host" value="106.15.188.67" />
+    <option name="host" value="www.azhu.work" />
     <option name="port" value="2181" />
     <option name="charset" value="UTF-8" />
     <option name="whitePaths" value="/" />
@@ -1413,342 +1406,438 @@
       <FILTER>com.azhu.springbootdatasource.*</FILTER>
     </SUITE>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>messageExt.getBody()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>message</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-provider/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/security/SecureClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1459">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider/src/main/java/com/azhu/springcloudprovider/controller/BaseController.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="7414">
+          <caret line="400" column="23" selection-start-line="400" selection-start-column="23" selection-end-line="400" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/concurrent/Dead_WaitDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/consumer/listener/ConsumeConcurrentlyStatus.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="110">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/concurrent/DeadDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-common/3.2.6/rocketmq-common-3.2.6.jar!/com/alibaba/rocketmq/common/consumer/ConsumeFromWhere.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/List_Remove_Demo.java" />
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterface.java" />
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/Lambda表达式/FunctionInterfaceTest.java" />
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/java8/StreamApi.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/consumer/DefaultMQPushConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="251" column="16" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/JavaSE.iml" />
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/java8/StreamTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/ClientConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/时间格式转化/DateDemo.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-datasource-aop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapper/UserMapperXML.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding>
-            <marker date="1575988114763" expanded="true" signature="323:341" ph="select * fro... user" />
-            <marker date="1575988114763" expanded="true" signature="460:527" ph="select userI... user" />
-            <marker date="1575988114763" expanded="true" signature="642:749" ph="insert into user... " />
-            <marker date="1575988114763" expanded="true" signature="1173:1276" ph="update user... " />
-            <marker date="1575988114763" expanded="true" signature="1361:1397" ph="delete from user... " />
+            <element signature="e#2353#2354#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/bind/annotation/ResponseStatus.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="814" column="31" selection-start-line="814" selection-start-column="31" selection-end-line="814" selection-end-column="31" />
+          <folding>
+            <element signature="e#33047#33048#0" expanded="true" />
+            <element signature="e#33096#33097#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/core/RocketMQTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="219" column="16" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationSucessHandler.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationFailureHandler.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/test/java/work/azhu/springbootsecurity/SpringbootSecurityApplicationTests.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/UserDetailService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/BrowserSecurityController.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/resources/css/login.css">
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/model/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="213">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/resources/rebel.xml">
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/consumer/listener/MessageListenerConcurrently.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.5.1/rocketmq-common-4.5.1.jar!/org/apache/rocketmq/common/message/MessageExt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/core/RocketMQListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/annotation/RocketMQMessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7062">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/core/RocketMQPushConsumerLifecycleListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="77" lean-forward="true" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_OneWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/SpringbootRocketmqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/test/java/work/azhu/springbootrocketmq/SpringbootRocketmqApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_SyncSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/producer/RocketMqProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-common/3.2.6/rocketmq-common-3.2.6.jar!/com/alibaba/rocketmq/common/message/MessageExt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/producer/DefaultMQProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-client/3.2.6/rocketmq-client-3.2.6.jar!/com/alibaba/rocketmq/client/producer/SendResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34012">
+          <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+          <folding>
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-common/3.2.6/rocketmq-common-3.2.6.jar!/com/alibaba/rocketmq/common/message/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/rocketmq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rocketmq/src/main/java/work/azhu/springbootrocketmq/rocketmq/consumer/RocketMqConsumer_AsyncSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-consumer/src/main/java/work/azhu/springbootkafkaconsumer/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-producer/src/main/java/work/azhu/springbootkafkaproducer/producer/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.1.8.RELEASE/spring-kafka-2.1.8.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-producer/src/main/java/work/azhu/springbootkafkaproducer/producer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/ce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="210" column="11" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
+          <folding>
+            <element signature="e#7926#7927#0" expanded="true" />
+            <element signature="e#7957#7958#0" expanded="true" />
+            <element signature="e#15599#15629#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/collection/hashmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/SpringbootSecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/conf/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/web/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/resource/ResourceHttpRequestHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/img/alipay.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/img/CMB.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/img/title.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/img/weixin.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/img/yihangka.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/static/img/logo1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/test/java/work/azhu/alipay/AlipayApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/AlipayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/conf/AlipayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-          <folding>
-            <element signature="e#1521#1542#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/templates/paymentindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/templates/finish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationSucessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/java/work/azhu/alipay/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/security/browser/BrowserSecurityConfig.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="285" column="29" selection-start-line="285" selection-start-column="29" selection-end-line="285" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/work/azhu/springbootsecurity/handler/MyAuthenticationFailureHandler.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="190">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/Lock/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/datatype/BigDecimal_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/Slacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/Hungry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alipay/src/main/resources/alipay.properties">
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/DoubleCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/StaticInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaSE/src/main/java/for23/singleton/SingletonEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

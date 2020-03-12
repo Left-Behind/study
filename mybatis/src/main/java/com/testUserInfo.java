@@ -1,3 +1,5 @@
+package com;
+
 import com.mapper.UserInfoMapper;
 import com.pojo.UserInfo;
 import com.util.MyBatisUtil;

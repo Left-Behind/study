@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/diy-springmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud" />
   </component>
   <component name="MavenProjectsManager">
@@ -12,6 +14,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
         <option value="$PROJECT_DIR$/alipay/pom.xml" />
+        <option value="$PROJECT_DIR$/auth/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-distributedlock/pom.xml" />
+        <option value="$PROJECT_DIR$/diy-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-distributedlock/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

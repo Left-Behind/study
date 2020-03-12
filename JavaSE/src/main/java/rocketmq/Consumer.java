@@ -18,14 +18,14 @@ import java.util.List;
 public class Consumer {
     public static void main(String[] args) throws MQClientException {
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("consumer1");
-        consumer.setNamesrvAddr("www.azhu.work:9876");
+        consumer.setNamesrvAddr("127.0.0.1:9876");
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
         consumer.subscribe("TopicTest","*");
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             @Override
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
                 System.out.println(Thread.currentThread().getName() +"Receive new message：" + msgs);
-
+                System.out.println("当前时间   "+System.currentTimeMillis()/1000);
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
             }
         });

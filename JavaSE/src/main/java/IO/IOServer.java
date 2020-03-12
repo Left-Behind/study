@@ -1,7 +1,10 @@
 package IO;
 
+import sun.nio.cs.ext.GBK;
+
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Reader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -30,7 +33,7 @@ public class IOServer {
                             InputStream inputStream = socket.getInputStream();
                             // (3) 按字节流方式读取数据
                             while ((len = inputStream.read(data)) != -1) {
-                                System.out.println(new String(data, 0, len));
+                                System.out.println(new String(data, 0, len, "GBK"));
                             }
                         } catch (IOException e) {
                         }

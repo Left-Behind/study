@@ -23,6 +23,7 @@
         <module>springboot-kafka-consumer</module>
         <module>springboot-kafka-producer</module>
         <module>springboot-netty</module>
+        <module>diy-springmvc</module>
     </modules>
 
     <properties>

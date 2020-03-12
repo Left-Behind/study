@@ -11,5 +11,9 @@ public class For {
 
     @Test
     public void For(){
+        Long start = System.currentTimeMillis();
+        Long end = System.currentTimeMillis();
+        Integer Max = 100;
+
     }
 }
