@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://www.azhu.work/ceshi?useSSL=false&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password: root
+    #schema: classpath:db/chema.sql #后期注释掉，否则每次启动都会初始化sql,大坑啊
+    #data: classpath:db/data.sql #后期注释掉，否则每次启动都会初始化sql,大坑啊
+    #initialization-mode: always  #不加的话不会执行schema和data
